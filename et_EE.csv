@@ -89,7 +89,6 @@ System,Süsteem,module,Magento_Backend
 "You deleted the store.","Pood kustutatud.",module,Magento_Backend
 "Store View",Poevaade,module,Magento_Backend
 "You deleted the store view.","Poevaade kustutatud.",module,Magento_Backend
-"Unable to delete store view. Please, try again later.","Poevaate kustutamine ebaõnnestus. Proovi uuesti.",module,Magento_Backend
 "The store does not exist","Poodi ei leitud",module,Magento_Backend
 "Last 24 Hours","Viimased 24 tundi",module,Magento_Backend
 "Last 7 Days","Viimased seitse päeva",module,Magento_Backend
@@ -131,39 +130,9 @@ Database,Andmebaas,module,Magento_Backup
 Country,Riik,module,Magento_Braintree
 "Allowed Credit Card Types","Lubatud krediitkaarditüübid",module,Magento_Braintree
 "Add Rule","Lisa reegel",module,Magento_Braintree
-Month,Kuu,module,Magento_Braintree
-Year,Aasta,module,Magento_Braintree
 "Credit Card Type","Krediitkaardi tüüp",module,Magento_Braintree
-"Delete Credit Card","Kustuta krediitkaart",module,Magento_Braintree
-"There was error deleting the credit card","Krediitkaardi kustutamisel ilmnes viga",module,Magento_Braintree
-"Credit card successfully deleted","Krediitkaart edukalt kustutatud",module,Magento_Braintree
-"Edit Credit Card","Muuda krediitkaarti",module,Magento_Braintree
-"My Credit Cards","Minu krediitkaardid",module,Magento_Braintree
-"New Credit Card","Uus krediitkaart",module,Magento_Braintree
-"There was error during saving card data","Kaardiandmete salvestamisel ilmnes viga",module,Magento_Braintree
-Invoice,Arve,module,Magento_Braintree
 "Expiration Date",Aegumiskuupäev,module,Magento_Braintree
-or,või,module,Magento_Braintree
-Delete,Kustuta,module,Magento_Braintree
-Back,Tagasi,module,Magento_Braintree
-"* Required Fields","* Kohustuslikud väljad",module,Magento_Braintree
-"Credit Card",Krediitkaart,module,Magento_Braintree
-CVV,"Kontrollkood (CVV)",module,Magento_Braintree
-"Billing Address",Arveldusaadress,module,Magento_Braintree
-"First Name",Eesnimi,module,Magento_Braintree
-"Last Name",Perekonnanimi,module,Magento_Braintree
-Company,Ettevõte,module,Magento_Braintree
-Address,Aadress,module,Magento_Braintree
-City,Linn,module,Magento_Braintree
-State/Province,Osariik/maakond,module,Magento_Braintree
-"Zip/Postal Code",Sihtnumber,module,Magento_Braintree
-Submit,Saada,module,Magento_Braintree
 Type,Tüüp,module,Magento_Braintree
-"Card Number",Kaardinumber,module,Magento_Braintree
-Actions,Toimingud,module,Magento_Braintree
-Yes,Jah,module,Magento_Braintree
-No,Ei,module,Magento_Braintree
-Edit,Muuda,module,Magento_Braintree
 Dynamic,Dünaamiline,module,Magento_Bundle
 Close,Sulge,module,Magento_Bundle
 Product,Toode,module,Magento_Bundle
@@ -209,18 +178,12 @@ Qty,Kogus,module,Magento_CatalogInventory
 "Save and Continue Edit","Salvesta ja jätka muutmist",module,Magento_CatalogRule
 "New Rule","Uus reegel",module,Magento_CatalogRule
 Actions,Toimingud,module,Magento_CatalogRule
-Apply,Rakenda,module,Magento_CatalogRule
 No,Ei,module,Magento_CatalogRule
 Yes,Jah,module,Magento_CatalogRule
 Conditions,Tingimused,module,Magento_CatalogRule
-"General Information",Üldinfo,module,Magento_CatalogRule
-"Rule Name","Reegli nimi",module,Magento_CatalogRule
-Description,Kirjeldus,module,Magento_CatalogRule
 Status,Staatus,module,Magento_CatalogRule
 Active,Aktiivne,module,Magento_CatalogRule
 Inactive,Mitteaktiivne,module,Magento_CatalogRule
-"Customer Groups",Kliendigrupid,module,Magento_CatalogRule
-Priority,Prioriteet,module,Magento_CatalogRule
 Type,Tüüp,module,Magento_CatalogRule
 "Attribute Set",Atribuudikogum,module,Magento_CatalogRule
 SKU,Laokood,module,Magento_CatalogRule
@@ -242,7 +205,6 @@ Product,Toode,module,Magento_CatalogSearch
 "Search Settings",Otsingusätted,module,Magento_CatalogSearch
 Search,Otsi,module,Magento_CatalogSearch
 "Advanced Search",Täppisotsing,module,Magento_CatalogSearch
-"Modify your search","Muuda otsingut",module,Magento_CatalogSearch
 "Your search returned no results.","Otsing ei leidnud tulemusi.",module,Magento_CatalogSearch
 "Conditions Combination","Tingimuste kombinatsioon",module,Magento_CatalogWidget
 "Product Attribute",Tooteatribuut,module,Magento_CatalogWidget
@@ -252,10 +214,6 @@ SKU,Laokood,module,Magento_CatalogWidget
 "Out of stock","Laost otsas",module,Magento_CatalogWidget
 "Add to Wish List","Lisa soovinimekirja",module,Magento_CatalogWidget
 "Add to Compare","Lisa võrdlusesse",module,Magento_CatalogWidget
-"Save Category","Salvesta kategooria",module,Magento_Catalog
-"Delete Category","Kustuta kategooria",module,Magento_Catalog
-"New Subcategory","Uus alamkategooria",module,Magento_Catalog
-"New Root Category","Uus juurkategooria",module,Magento_Catalog
 Name,Nimi,module,Magento_Catalog
 SKU,Laokood,module,Magento_Catalog
 Price,Hind,module,Magento_Catalog
@@ -279,7 +237,6 @@ Year,Aasta,module,Magento_Catalog
 "Store View",Poevaade,module,Magento_Catalog
 "Enable WYSIWYG","Luba WYSIWYG",module,Magento_Catalog
 "Allow HTML Tags on Storefront","Luba poevaates HTML märgendeid",module,Magento_Catalog
-"Depends on design theme","Sõltub kesta kujundusest",module,Magento_Catalog
 "Used for Sorting in Product Listing","Kasutatav tootenimekirja sorteerimiseks",module,Magento_Catalog
 Gallery,Galerii,module,Magento_Catalog
 No,Ei,module,Magento_Catalog
@@ -425,7 +382,6 @@ Content,Sisu,module,Magento_Cms
 "New Page","Uus leht",module,Magento_Cms
 "-- Please Select --","-- Vali --",module,Magento_Cms
 Design,Kujundus,module,Magento_Cms
-Description,Kirjeldus,module,Magento_Cms
 Action,Toiming,module,Magento_Cms
 Preview,Eelvaade,module,Magento_Cms
 "Media Storage","Meedia hoidla",module,Magento_Cms
@@ -435,7 +391,6 @@ Pages,Lehed,module,Magento_Cms
 "All Store Views","Kõik poevaated",module,Magento_Cms
 Edit,Muuda,module,Magento_Cms
 Delete,Kustuta,module,Magento_Cms
-Details,Üksikasjad,module,Magento_Cms
 "Use Default","Kasuta vaikeväärtust",module,Magento_Config
 Add,Lisa,module,Magento_Config
 Enable,Luba,module,Magento_Config
@@ -534,7 +489,6 @@ Email,E-post,module,Magento_Customer
 "New Password","Uus salasõna",module,Magento_Customer
 "Confirm New Password","Kinnita uus salasõna",module,Magento_Customer
 Save,Salvesta,module,Magento_Customer
-Submit,Saada,module,Magento_Customer
 "Registered Customers","Registreerunud kliendid",module,Magento_Customer
 Password,Salasõna,module,Magento_Customer
 "Forgot Your Password?","Unustasid salasõna?",module,Magento_Customer
@@ -554,8 +508,10 @@ Error,Viga,module,Magento_DownloadableImportExport
 "All Files","Kõik failid",module,Magento_Downloadable
 Unlimited,Piiramatu,module,Magento_Downloadable
 "My Downloadable Products","Minu digitaalsed tooted",module,Magento_Downloadable
+"The link has expired.","Link on aegunud.",module,Magento_Downloadable
 Pending,Ootel,module,Magento_Downloadable
 sample,näidis,module,Magento_Downloadable
+Title,Pealkiri,module,Magento_Downloadable
 "Use Default Value","Kasuta vaikeväärtust",module,Magento_Downloadable
 "Sort Order","Sorteerimise järjekord",module,Magento_Downloadable
 Price,Hind,module,Magento_Downloadable
@@ -895,7 +851,6 @@ Conditions,Tingimused,module,Magento_SalesRule
 "Times Used","Kordi kasutatud",module,Magento_SalesRule
 "Excel XML","Exceli XML",module,Magento_SalesRule
 Delete,Kustuta,module,Magento_SalesRule
-"General Information",Üldinfo,module,Magento_SalesRule
 "Rule Name","Reegli nimi",module,Magento_SalesRule
 Description,Kirjeldus,module,Magento_SalesRule
 Status,Staatus,module,Magento_SalesRule
@@ -1194,14 +1149,6 @@ Email:,E-post:,theme,frontend/Magento/luma
 "Manage Addresses","Halda aadresse",theme,frontend/Magento/luma
 "Payment Method",Makseviis,theme,frontend/Magento/luma
 "Shipping Method",Tarneviis,theme,frontend/Magento/luma
-Cancel,Tühista,lib,lib/web/mage/adminhtml/backup.js
-Close,Sulge,lib,lib/web/mage/dropdown.js
-"Please wait...","Palun oota...",lib,lib/web/mage/loader.js
-"Please wait...","Palun oota...",lib,lib/web/mage/loader_old.js
-Cancel,Tühista,lib,lib/web/mage/translate-inline-vde.js
-Save,Salvesta,lib,lib/web/mage/translate-inline-vde.js
-Submit,Saada,lib,lib/web/mage/translate-inline.js
-Close,Sulge,lib,lib/web/mage/translate-inline.js
 Cancel,Tühista,module,Magento_Catalog
 Submit,Saada,module,Magento_Catalog
 "unselect all","tühista kõik",module,Magento_Catalog
@@ -1261,7 +1208,6 @@ Type,Tüüp,module,Magento_Backup
 Download,"Lae alla",module,Magento_Backup
 Action,Toiming,module,Magento_Backup
 Debug,Silumine,module,Magento_Braintree
-"New Order Status","Uue tellimuse staatus",module,Magento_Braintree
 "Credit Card Types","Krediitkaardi tüübid",module,Magento_Braintree
 "Sort Order","Sorteerimise järjekord",module,Magento_Braintree
 Font,Šrift,module,Magento_Captcha
@@ -1427,9 +1373,7 @@ Action,Toiming,module,Magento_Sitemap
 "1 column","1 veerg",module,Magento_Theme
 "HTML Head","HTML päis",module,Magento_Theme
 "Favicon Icon","Faviconi pilt",module,Magento_Theme
-"Allowed file types: ICO, PNG, GIF, JPG, JPEG, APNG, SVG. Not all browsers support all these formats!","Lubatud formaadid: ICO, PNG, GIF, JPG, JPEG, APNG, SVN. Mitte kõik brauserid ei toeta kõiki formaate!",module,Magento_Theme
 "Default Description",Vaikekirjeldus,module,Magento_Theme
-"Miscellaneous Scripts","Täiendavad skriptid",module,Magento_Theme
 "Display Demo Store Notice","Kuva testpoe teadet",module,Magento_Theme
 Header,Päis,module,Magento_Theme
 "Welcome Text",Tervitussõnum,module,Magento_Theme
