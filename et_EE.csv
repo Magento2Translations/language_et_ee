@@ -345,6 +345,8 @@ Category,Kategooria,module,Magento_Catalog
 "Use config","Kasuta seadeid",module,Magento_Catalog
 Enabled,Lubatud,module,Magento_Catalog
 Disabled,Keelatud,module,Magento_Catalog
+"Such product doesn't exist","Sellist toodet ei ole",module,Magento_Catalog
+"Such image doesn't exist","Sellist pilti ei ole",module,Magento_Catalog
 "The text is too long.","Tekst on liiga pikk.",module,Magento_Catalog
 "The file upload failed.","Faili üles laadimine ebaõnnestus.",module,Magento_Catalog
 "Not Visible Individually","Ei kuvata eraldi",module,Magento_Catalog
@@ -405,7 +407,6 @@ Price,Hind,module,Magento_Checkout
 Qty,Kogus,module,Magento_Checkout
 "Continue Shopping","Jätka ostlemist",module,Magento_Checkout
 "Clear Shopping Cart","Tühjenda ostukorv",module,Magento_Checkout
-"What's this?","Mis see on?",module,Magento_Checkout
 Edit,Muuda,module,Magento_Checkout
 "Remove item","Eemalda toode",module,Magento_Checkout
 "Excl. Tax","Ilma maksuta",module,Magento_Checkout
@@ -554,8 +555,10 @@ Error,Viga,module,Magento_DownloadableImportExport
 "All Files","Kõik failid",module,Magento_Downloadable
 Unlimited,Piiramatu,module,Magento_Downloadable
 "My Downloadable Products","Minu digitaalsed tooted",module,Magento_Downloadable
+"The link has expired.","Link on aegunud.",module,Magento_Downloadable
 Pending,Ootel,module,Magento_Downloadable
 sample,näidis,module,Magento_Downloadable
+Title,Pealkiri,module,Magento_Downloadable
 "Use Default Value","Kasuta vaikeväärtust",module,Magento_Downloadable
 "Sort Order","Sorteerimise järjekord",module,Magento_Downloadable
 Price,Hind,module,Magento_Downloadable
@@ -659,7 +662,6 @@ Database,Andmebaas,module,Magento_MediaStorage
 "File system",Failisüsteem,module,Magento_MediaStorage
 "In Cart",Ostukorvis,module,Magento_Msrp
 "Use config","Kasuta seadeid",module,Magento_Msrp
-"What's this?","Mis see on?",module,Magento_Msrp
 Price,Hind,module,Magento_Msrp
 "Add to Cart","Lisa ostukorvi",module,Magento_Msrp
 "Change Billing Address","Muuda arveldusaadressi",module,Magento_Multishipping
@@ -765,6 +767,7 @@ Qty,Kogus,module,Magento_Paypal
 or,või,module,Magento_Paypal
 Continue,Jätka,module,Magento_Paypal
 "What is PayPal?","Mis on PayPal?",module,Magento_Paypal
+"What's this?","Mis see on?",module,Magento_Persistent
 "The product was not found.","Toodet ei leitud.",module,Magento_ProductAlert
 Price:,Hind:,module,Magento_ProductAlert
 Description,Kirjeldus,module,Magento_ProductVideo
@@ -1194,14 +1197,6 @@ Email:,E-post:,theme,frontend/Magento/luma
 "Manage Addresses","Halda aadresse",theme,frontend/Magento/luma
 "Payment Method",Makseviis,theme,frontend/Magento/luma
 "Shipping Method",Tarneviis,theme,frontend/Magento/luma
-Cancel,Tühista,lib,lib/web/mage/adminhtml/backup.js
-Close,Sulge,lib,lib/web/mage/dropdown.js
-"Please wait...","Palun oota...",lib,lib/web/mage/loader.js
-"Please wait...","Palun oota...",lib,lib/web/mage/loader_old.js
-Cancel,Tühista,lib,lib/web/mage/translate-inline-vde.js
-Save,Salvesta,lib,lib/web/mage/translate-inline-vde.js
-Submit,Saada,lib,lib/web/mage/translate-inline.js
-Close,Sulge,lib,lib/web/mage/translate-inline.js
 Cancel,Tühista,module,Magento_Catalog
 Submit,Saada,module,Magento_Catalog
 "unselect all","tühista kõik",module,Magento_Catalog
