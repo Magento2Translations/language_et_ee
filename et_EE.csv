@@ -671,7 +671,6 @@ Discount,Allahindlus,module,Magento_Payment
 Yes,Jah,module,Magento_Payment
 No,Ei,module,Magento_Payment
 "Expiration Date",Aegumiskuupäev,module,Magento_Payment
-"Start Date",Alguskuupäev,module,Magento_Payment
 Email,E-post,module,Magento_Paypal
 "First Name",Eesnimi,module,Magento_Paypal
 "Last Name",Perekonnanimi,module,Magento_Paypal
