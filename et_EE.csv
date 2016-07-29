@@ -223,9 +223,12 @@ Search,Otsi,module,Magento_CatalogSearch
 "Delete Category","Kustuta kategooria",module,Magento_Catalog
 "New Subcategory","Uus alamkategooria",module,Magento_Catalog
 "New Root Category","Uus juurkategooria",module,Magento_Catalog
+"Set Root Category for Store","Määra poe juurkategooria",module,Magento_Catalog
+"Custom Design","Kohandatud disain",module,Magento_Catalog
 Name,Nimi,module,Magento_Catalog
 SKU,Laokood,module,Magento_Catalog
 Price,Hind,module,Magento_Catalog
+"Category Data","Kategooria andmed",module,Magento_Catalog
 "Category Products","Kategooria tooted",module,Magento_Catalog
 "Add Subcategory","Lisa alamkategooria",module,Magento_Catalog
 "Add Root Category","Lisa juurkategooria",module,Magento_Catalog
@@ -243,7 +246,9 @@ Year,Aasta,module,Magento_Catalog
 "Default Value",Vaikeväärtus,module,Magento_Catalog
 "Unique Value","Unikaalne väärtus",module,Magento_Catalog
 "Unique Value (not shared with other products)","Unikaalne väärtus (ei jagata teiste toodetega)",module,Magento_Catalog
+"Not shared with other products","Ei jagata teiste toodetega",module,Magento_Catalog
 "Store View",Poevaade,module,Magento_Catalog
+"Declare attribute value saving scope","Deklareerige atribuudi väärtuse kehtivuspiirkond",module,Magento_Catalog
 "Enable WYSIWYG","Luba WYSIWYG",module,Magento_Catalog
 "Depends on design theme","Sõltub kesta kujundusest",module,Magento_Catalog
 "Used for Sorting in Product Listing","Kasutatav tootenimekirja sorteerimiseks",module,Magento_Catalog
@@ -252,6 +257,7 @@ No,Ei,module,Magento_Catalog
 Yes,Jah,module,Magento_Catalog
 Static,Staatiline,module,Magento_Catalog
 Visible,Nähtav,module,Magento_Catalog
+"Web Site",Veebisait,module,Magento_Catalog
 Searchable,Otsitav,module,Magento_Catalog
 Comparable,Võrreldav,module,Magento_Catalog
 "Delete Selected Group","Kustuta valitud grupp",module,Magento_Catalog
@@ -269,6 +275,8 @@ Save,Salvesta,module,Magento_Catalog
 Attributes,Atribuudid,module,Magento_Catalog
 Change,Vaheta,module,Magento_Catalog
 "Category Name","Kategooria nimi",module,Magento_Catalog
+"We saved the price alert subscription.","Salvestasime Teie hinnamärguandega liitumise.",module,Magento_Catalog
+"We saved the stock notification.","Me salvestasime laovarudest teavitamise.",module,Magento_Catalog
 "First Name",Eesnimi,module,Magento_Catalog
 "Last Name",Perekonnanimi,module,Magento_Catalog
 Email,E-post,module,Magento_Catalog
@@ -286,7 +294,9 @@ Visibility,Nähtavus,module,Magento_Catalog
 Quantity,Kogus,module,Magento_Catalog
 Edit,Muuda,module,Magento_Catalog
 "Are you sure?",Kindel?,module,Magento_Catalog
+"Click here or drag and drop to add images.","Pildi lisamiseks klikkige või pukseerige see.",module,Magento_Catalog
 "Delete image","Kustuta pilt",module,Magento_Catalog
+"Make Base","Tee baas",module,Magento_Catalog
 "Images (.gif, .jpg, .png)","Pildid (.gif, .jpg, .png)",module,Magento_Catalog
 "Add New Images","Lisa uued pildid",module,Magento_Catalog
 Product,Toode,module,Magento_Catalog
@@ -297,6 +307,7 @@ Categories,Kategooriad,module,Magento_Catalog
 "Manage Categories","Halda kategooriaid",module,Magento_Catalog
 Catalog,Kataloog,module,Magento_Catalog
 "Edit Product Attribute","Muuda tooteatribuuti",module,Magento_Catalog
+"This product no longer exists.","Seda toodet ei eksisteeri enam,.",module,Magento_Catalog
 Products,Tooted,module,Magento_Catalog
 "A group with the same name already exists.","Selle nimega grupp on juba olemas.",module,Magento_Catalog
 All,Kõik,module,Magento_Catalog
@@ -318,6 +329,8 @@ Search,Otsi,module,Magento_Catalog
 "Catalog, Search","Kataloog, otsing",module,Magento_Catalog
 "Multiple Select",Multivalik,module,Magento_Catalog
 Dropdown,Rippvalik,module,Magento_Catalog
+"Are you sure you want to delete this category?","Kas olete kindel, et soovite selle kategooria kustutada?",module,Magento_Catalog
+"Set root category for this store in the <a href=""%1"">configuration</a>.","Määrake selle poe Juurkategooria <a href=""%1"">konfiguratsioonis</a>.",module,Magento_Catalog
 "Use Default Value","Kasuta vaikeväärtust",module,Magento_Catalog
 Groups,Grupid,module,Magento_Catalog
 "Unassigned Attributes","Valimata atribuudid",module,Magento_Catalog
