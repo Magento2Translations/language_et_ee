@@ -243,6 +243,7 @@ No,Ei,module,Magento_Catalog
 Yes,Jah,module,Magento_Catalog
 Static,Staatiline,module,Magento_Catalog
 Visible,Nähtav,module,Magento_Catalog
+"Web Site",Veebisait,module,Magento_Catalog
 Searchable,Otsitav,module,Magento_Catalog
 Comparable,Võrreldav,module,Magento_Catalog
 "Delete Selected Group","Kustuta valitud grupp",module,Magento_Catalog
