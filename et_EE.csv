@@ -332,6 +332,7 @@ Dropdown,Rippvalik,module,Magento_Catalog
 "Are you sure you want to delete this category?","Kas olete kindel, et soovite selle kategooria kustutada?",module,Magento_Catalog
 "Set root category for this store in the <a href=""%1"">configuration</a>.","Määrake selle poe Juurkategooria <a href=""%1"">konfiguratsioonis</a>.",module,Magento_Catalog
 "Use Default Value","Kasuta vaikeväärtust",module,Magento_Catalog
+"Manage Options (values of your attribute)","Halda valikuid (atribuudi väärtuseid)",module,Magento_Catalog
 Groups,Grupid,module,Magento_Catalog
 "Unassigned Attributes","Valimata atribuudid",module,Magento_Catalog
 "Maximum image width","Maksimaalne pildi laius",module,Magento_Catalog
@@ -347,6 +348,7 @@ Backorders,Järeltellimused,module,Magento_Catalog
 Action,Toiming,module,Magento_Catalog
 "Alt Text","Alt tekst",module,Magento_Catalog
 Role,Roll,module,Magento_Catalog
+"Close panel","Sulge paneel",module,Magento_Catalog
 "Add to Cart","Lisa ostukorvi",module,Magento_Catalog
 "In stock",Laos,module,Magento_Catalog
 "Out of stock","Laost otsas",module,Magento_Catalog
@@ -1128,6 +1130,10 @@ Backorders,Järeltellimused,module,Magento_CatalogInventory
 "Minimal Query Length","Lühim päringu pikkus",module,Magento_CatalogSearch
 "Maximum Query Length","Maksimaalne otsingu pikkus",module,Magento_CatalogSearch
 Comma-separated.,"Komaga eraldatud.",module,Magento_Catalog
+"Watermark Default Size","Vesimärgi vaikesuurus",module,Magento_Catalog
+"Watermark Opacity, Percent","Vesimärgi hägusus, protsentides",module,Magento_Catalog
+Watermark,Vesimärk,module,Magento_Catalog
+"Watermark Position","Vesimärgi asukoht",module,Magento_Catalog
 "All products","Kõik tooted",module,Magento_Catalog
 "Change status","Muuda staatust",module,Magento_Catalog
 Details,Üksikasjad,module,Magento_Catalog
