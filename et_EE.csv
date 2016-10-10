@@ -1,7 +1,20 @@
+"Read Details","Loe lähemalt",module,Magento_AdminNotification
 "Mark as Read","Märgi loetuks",module,Magento_AdminNotification
 "Are you sure?",Kindel?,module,Magento_AdminNotification
 Remove,Eemalda,module,Magento_AdminNotification
+"Messages Inbox","Saabunud teated",module,Magento_AdminNotification
+"You have %1 new system messages","Teil on %1 uut sõnumit",module,Magento_AdminNotification
+"You have %1 new system message","Teile on %1 uus sõnum",module,Magento_AdminNotification
+"Incoming Message","Uus sõnum",module,Magento_AdminNotification
 close,sulge,module,Magento_AdminNotification
+Notifications,Teavitused,module,Magento_AdminNotification
+"The message has been marked as Read.","Sõnum on märgitud loetuks.",module,Magento_AdminNotification
+"We couldn't mark the notification as Read because of an error.","Me ei saa märkida sõnumit loetuks vea tõttu.",module,Magento_AdminNotification
+"Please select messages.","Vali sõnumid.",module,Magento_AdminNotification
+"A total of %1 record(s) have been marked as Read.","%1 kirjet on märgitud loetuks.",module,Magento_AdminNotification
+"Total of %1 record(s) have been removed.","Kokku %1 kirje(t) kustutati.",module,Magento_AdminNotification
+"We couldn't remove the messages because of an error.","Me ei saanud tõrke tõttu sõnumeid eemaldada.",module,Magento_AdminNotification
+"The message has been removed.","Sõnum on kustutatud.",module,Magento_AdminNotification
 "1 Hour","1 tund",module,Magento_AdminNotification
 "2 Hours","2 tundi",module,Magento_AdminNotification
 "6 Hours","6 tundi",module,Magento_AdminNotification
@@ -11,7 +24,17 @@ critical,kriitiline,module,Magento_AdminNotification
 major,oluline,module,Magento_AdminNotification
 minor,tühine,module,Magento_AdminNotification
 notice,teavitus,module,Magento_AdminNotification
+"Wrong message type","Vale sõnumi tüüp",module,Magento_AdminNotification
+"Wrong notification ID specified.","Valisite vale teate ID.",module,Magento_AdminNotification
+"Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Palun minge <a href=""%1""> Vahemälu haldamisse</a> ja värskenda vahemälu tüübid.",module,Magento_AdminNotification
+"We were unable to synchronize one or more media files. Please refer to the log file for details.","Me ei saanud üht või mitut meedafaili sünkroniseerida. Vaadake üksikasju logifailist.",module,Magento_AdminNotification
+"Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.","Teie veebiserver on valesti seadistatud ja võimaldab volitamata juurdepääsu tundlikele failidele. Võtke ühendust oma teenusepakkujaga.",module,Magento_AdminNotification
+"System Messages:",Süsteemisõnumid:,module,Magento_AdminNotification
+"Critical System Messages","Kriitilised süsteemisõnumid",module,Magento_AdminNotification
+"Major System Messages","Üldised süsteemisõnumid",module,Magento_AdminNotification
+"System messages",Süsteemisõnumid,module,Magento_AdminNotification
 Close,Sulge,module,Magento_AdminNotification
+"See All (","Vaata kõiki (",module,Magento_AdminNotification
 "Payment voiding error.","Makse tühistamise viga.",module,Magento_Authorizenet
 "Payment refunding error.","Makse tagastamise viga.",module,Magento_Authorizenet
 "Credit Card Type","Krediitkaardi tüüp",module,Magento_Authorizenet
@@ -1211,6 +1234,8 @@ Delete,Kustuta,module,Magento_ProductVideo
 "Please enter a valid credit card number.","Sisesta korrektne krediitkaardi number.",module,Magento_Ui
 "Please enter a valid date.","Sisesta kuupäev.",module,Magento_Ui
 Close,Sulge,module,Magento_Ui
+"Show Toolbar","Kuva tööriistariba",module,Magento_AdminNotification
+"Show List","Kuva loend",module,Magento_AdminNotification
 "Update Frequency","Uuenduste sagedus",module,Magento_AdminNotification
 "Last Update","Viimane uuendus",module,Magento_AdminNotification
 "Date Added",Lisamiskuupäev,module,Magento_AdminNotification
