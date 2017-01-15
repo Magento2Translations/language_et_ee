@@ -32,10 +32,31 @@ Close,Sulge,module,Magento_AdminNotification
 "Major System Messages","Üldised süsteemisõnumid",module,Magento_AdminNotification
 "System messages",Süsteemisõnumid,module,Magento_AdminNotification
 "You created the order.","Te lõite tellimuse.",module,Magento_Authorizenet
+"Order saving error: %1","Tellimuse salvestamise tõrge: %1",module,Magento_Authorizenet
+"Please choose a payment method.","Valige makseviisi.",module,Magento_Authorizenet
+"Credit Card: xxxx-%1","Krediitkaart: xxxx-%1",module,Magento_Authorizenet
+"amount %1","summa %1",module,Magento_Authorizenet
+authorize,luba,module,Magento_Authorizenet
+"authorize and capture","lubada ja salvesta",module,Magento_Authorizenet
+capture,hõiva,module,Magento_Authorizenet
+refund,tagastus,module,Magento_Authorizenet
+void,tühine,module,Magento_Authorizenet
+"Gateway error: %1","Värava viga: %1",module,Magento_Authorizenet
+"Something went wrong in the payment gateway.","Midagi läks valesti ja makseväravas.",module,Magento_Authorizenet
+"Invalid amount for capture.","Ebakorrektne summa hõiveks.",module,Magento_Authorizenet
+"Payment capturing error.","Viga makse hõivamises.",module,Magento_Authorizenet
+"Invalid transaction ID.","Sobimatu kande ID.",module,Magento_Authorizenet
 "Payment voiding error.","Makse tühistamise viga.",module,Magento_Authorizenet
+"Invalid amount for refund.","Tagastamiseks ebakorrektne summa.",module,Magento_Authorizenet
 "Payment refunding error.","Makse tagastamise viga.",module,Magento_Authorizenet
+"The transaction was declined because the response hash validation failed.","Tehingust keelduti, sest vastuse hashi valideerimine nurjus.",module,Magento_Authorizenet
+"There was a payment authorization error.","Makse autoriseerimisel esines viga.",module,Magento_Authorizenet
+"Authorize Only","Lubada ainult",module,Magento_Authorizenet
+"Authorize and Capture","Lubada ja salvesta",module,Magento_Authorizenet
 "Credit Card Type","Krediitkaardi tüüp",module,Magento_Authorizenet
+"Credit Card Number","Krediitkaardi number",module,Magento_Authorizenet
 "Expiration Date",Aegumiskuupäev,module,Magento_Authorizenet
+"Card Verification Number","Kaardi turvakood",module,Magento_Authorizenet
 "Invalid Form Key. Please refresh the page.","Palun laadige leht uuesti. Sobimatu vormi võti.",module,Magento_Backend
 "Flush Magento Cache","Tühjenda Magento vahemälu",module,Magento_Backend
 Orders,Tellimused,module,Magento_Backend
@@ -1194,12 +1215,24 @@ Severity,Raskusaste,module,Magento_AdminNotification
 "Date Added",Lisamiskuupäev,module,Magento_AdminNotification
 Message,Sõnum,module,Magento_AdminNotification
 Actions,Toimingud,module,Magento_AdminNotification
+"Authorize.net Direct Post","Authorize.net otse postitus",module,Magento_Authorizenet
 Enabled,Lubatud,module,Magento_Authorizenet
+"Payment Action","Makse tegevus",module,Magento_Authorizenet
+Title,Pealkiri,module,Magento_Authorizenet
+"Transaction Key","Tehingu võti",module,Magento_Authorizenet
+"Merchant MD5","Kaupmehe MD5",module,Magento_Authorizenet
 "New Order Status","Uue tellimuse staatus",module,Magento_Authorizenet
 "Test Mode",Testrežiim,module,Magento_Authorizenet
+"Gateway URL","Värava URL",module,Magento_Authorizenet
 "Accepted Currency","Lubatud valuutad",module,Magento_Authorizenet
 Debug,Silumine,module,Magento_Authorizenet
+"Email Customer","Kliendi email",module,Magento_Authorizenet
+"Merchant's Email","Kaupmehe e-mail",module,Magento_Authorizenet
 "Credit Card Types","Krediitkaardi tüübid",module,Magento_Authorizenet
+"Credit Card Verification","Krediitkaardi andmete kinnitus",module,Magento_Authorizenet
+"Payment from Applicable Countries","Maksed sobivatest maadest",module,Magento_Authorizenet
+"Payment from Specific Countries","Maksed konkreetsetest maadest",module,Magento_Authorizenet
+"Minimum Order Total","Minimaalne tellimuse summa",module,Magento_Authorizenet
 "Sort Order","Sorteerimise järjekord",module,Magento_Authorizenet
 "Sender Email","Saatja e-posti aadress",module,Magento_Backend
 "Sender Name","Saatja nimi",module,Magento_Backend
