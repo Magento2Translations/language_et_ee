@@ -175,32 +175,80 @@ No,Ei,module,Magento_Backend
 "Save Store View","Salvesta poevaade",module,Magento_Backend
 "Delete Store View","Kustuta poevaade",module,Magento_Backend
 "Edit Web Site","Muuda veebisaiti",module,Magento_Backend
+"New Web Site","Uus veebileht",module,Magento_Backend
 "Edit Store","Muuda poodi",module,Magento_Backend
 "New Store","Uus pood",module,Magento_Backend
 "Edit Store View","Muuda poevaadet",module,Magento_Backend
 "New Store View","Uus poevaade",module,Magento_Backend
+"Store Information",Poeteave,module,Magento_Backend
+"Web Site",Veebileht,module,Magento_Backend
 Name,Nimi,module,Magento_Backend
 "Root Category",Juurkategooria,module,Magento_Backend
+"Default Store View","Vaikimisi poevaade",module,Magento_Backend
+"Store View Information","Poevaate informatsioon",module,Magento_Backend
 Code,Kood,module,Magento_Backend
 Status,Staatus,module,Magento_Backend
 Disabled,Keelatud,module,Magento_Backend
 Enabled,Lubatud,module,Magento_Backend
 "Sort Order","Sorteerimise järjekord",module,Magento_Backend
+"Web Site Information","Veebilehe informatsioon",module,Magento_Backend
+"Default Store","Vaikimisi pood",module,Magento_Backend
+"Set as Default","Määra vaikeseadeks",module,Magento_Backend
+Stores,Poed,module,Magento_Backend
+"Create Website","Loo veebisait",module,Magento_Backend
+"Create Store","Lisa pood",module,Magento_Backend
+"Create Store View","Lisa poevaade",module,Magento_Backend
+Home,Avaleht,module,Magento_Backend
+Reset,Lähtesta,module,Magento_Backend
+"Are you sure you want to do this?","Olete kinde, et soovite seda teha?",module,Magento_Backend
+"Add New Image","Lisa Uus Pilt",module,Magento_Backend
+"Export block for grid %1 is not defined","Eksport plok grid %1 on määratlemata",module,Magento_Backend
+"Reset Filter","Tühista piirangud",module,Magento_Backend
 Search,Otsi,module,Magento_Backend
+Any,Kõik,module,Magento_Backend
 "All Countries","Kõik riigid",module,Magento_Backend
+From,Alates,module,Magento_Backend
+To,Kuni,module,Magento_Backend
+"Date selector","Kuupäeva valija",module,Magento_Backend
+"Select All","Vali kõik",module,Magento_Backend
 "Add New","Lisa uus",module,Magento_Backend
+"Invalid export type supplied for grid export block","Andsite vigase ekspordi tüübi grid ekspordi ploki jaoks",module,Magento_Backend
 Export,Eksport,module,Magento_Backend
+"Please correct the column format and try again.","Parandage veeruvormingut ja proovige uuesti.",module,Magento_Backend
+"Please select items.","Valige üksused.",module,Magento_Backend
 Submit,Saada,module,Magento_Backend
 "Unknown block type","Tundmatu ploki tüüp",module,Magento_Backend
+"Please correct the tab configuration and try again. Tab Id should be not empty","Palun parandage vahekaardi sätteid ja proovige uuesti. Vahekaardi Id ei tohiks olla tühi",module,Magento_Backend
+"Please correct the tab configuration and try again.","Parandage vahekaardi sätteid ja proovige uuesti.",module,Magento_Backend
+"You have logged out.","Sa logisid välja.",module,Magento_Backend
+"The image cache was cleaned.","Pildi vahemälu puhastati.",module,Magento_Backend
+"An error occurred while clearing the image cache.","Pildi vahemälu puhastamisel ilmnes viga.",module,Magento_Backend
 "The JavaScript/CSS cache has been cleaned.","JavaScripti/CSS vahemälu on puhastatud.",module,Magento_Backend
 "An error occurred while clearing the JavaScript/CSS cache.","JavaScripti/CSS-i vahemälu puhastamisel ilmnes viga.",module,Magento_Backend
 "The static files cache has been cleaned.","Staatiliste failide vahemälu puhastatud.",module,Magento_Backend
 "You flushed the cache storage.","Vahemälu hoidla tühjendatud.",module,Magento_Backend
 "The Magento cache storage has been flushed.","Magento vahemälu hoida puhastatud.",module,Magento_Backend
 "Cache Management","Vahemälu haldus",module,Magento_Backend
+"%1 cache type(s) disabled.","%1 vahemälu tüüp (tüübid) keelatud.",module,Magento_Backend
+"An error occurred while disabling cache.","Vahemälu keelamisel ilmnes viga.",module,Magento_Backend
+"%1 cache type(s) enabled.","%1 vahemälu(d) lubatud.",module,Magento_Backend
+"An error occurred while enabling cache.","Vahemälu lubamisel ilmnes viga.",module,Magento_Backend
+"%1 cache type(s) refreshed.","%1 vahemälu(d) tüübid värskendatud.",module,Magento_Backend
+"An error occurred while refreshing cache.","Vahemälu värskendamisel ilmnes viga.",module,Magento_Backend
 Dashboard,Töölaud,module,Magento_Backend
+"We updated lifetime statistic.","Uuendasime LifeTime statistikat.",module,Magento_Backend
+"invalid request","vigane päring",module,Magento_Backend
+"see error log for details","vaata üksikasju tõrkelogist",module,Magento_Backend
+"Service unavailable: %1","Teenus pole saadaval: %1",module,Magento_Backend
 Error,Viga,module,Magento_Backend
 "Access Denied.","Ligipääs keelatud.",module,Magento_Backend
+"You need more permissions to do this.","Vajate rohkem õiguseid, et seda teha.",module,Magento_Backend
+"No search modules were registered","Ühtegi otsingumoodulit ei ole registreeritud",module,Magento_Backend
+"Please make sure that all global admin search modules are installed and activated.","Veenduge, et kõik globaalsed admin Otsi-moodulid oleks installitud ja aktiveeritud.",module,Magento_Backend
+"You saved the account.","Konto salvestatud.",module,Magento_Backend
+"An error occurred while saving account.","Konto salvestamisel ilmnes viga.",module,Magento_Backend
+"You deleted the design change.","Kustutasite kujunduse muutmise.",module,Magento_Backend
+"You can't delete the design change.","Kujunduse muutmist ei saa kustutada.",module,Magento_Backend
 "Store Design",Poekujundus,module,Magento_Backend
 "Edit Store Design Change","Muuda Poe kujunduse muudatust",module,Magento_Backend
 "You saved the design change.","Salvestasite kujunduse muutmise.",module,Magento_Backend
@@ -268,11 +316,27 @@ password,salasõna,module,Magento_Backend
 "Account Setting","Konto seaded",module,Magento_Backend
 "Customer View","Kliendi vaade",module,Magento_Backend
 "Sign Out","Logi välja",module,Magento_Backend
+"About the calendar",Kalendrist,module,Magento_Backend
 Close,Sulge,module,Magento_Backend
+"Go Today","Mine täna",module,Magento_Backend
 Previous,Eelmine,module,Magento_Backend
 Next,Järgmine,module,Magento_Backend
+WK,NDL,module,Magento_Backend
+Time,Aeg,module,Magento_Backend
+Hour,Tund,module,Magento_Backend
+Minute,Minut,module,Magento_Backend
+"JavaScript may be disabled in your browser.","Võimalik, et Brauseri JavaScript on välja lülitatud.",module,Magento_Backend
+"To use this website you must first enable JavaScript in your browser.","Selle veebisaidi kasutamiseks peate esmalt lubama JavaScripti oma brauseris.",module,Magento_Backend
+"This is only a demo store. You can browse and place orders, but nothing will be processed.","See on ainult demo pood. Tellimusi ei täideta.",module,Magento_Backend
+"Report Bugs","Teavita leitud veast",module,Magento_Backend
+"Store View:",Poevaade:,module,Magento_Backend
+"Stores Configuration","Salvestab konfiguratsiooni",module,Magento_Backend
+"Additional Cache Management","Täiendav vahemälu haldus",module,Magento_Backend
 "Flush Catalog Images Cache","Puhasta tootekataloogi piltide vahemälu",module,Magento_Backend
+"Pregenerated product images files","Eelgenereeritud toodepildid",module,Magento_Backend
 "Flush JavaScript/CSS Cache","Puhasta JavaScripti/CSS-i vahemälu",module,Magento_Backend
+"Themes JavaScript and CSS files combined to one file","Üheks failiks kokku liidetud JavaScripti ja CSS-i failid",module,Magento_Backend
+"Flush Static Files Cache","Staatiliste failide vahemälu tühjendamine",module,Magento_Backend
 Catalog,Kataloog,module,Magento_Backend
 Images,Pildid,module,Magento_Backend
 "Big Image","Suur pilt",module,Magento_Backend
@@ -1684,9 +1748,30 @@ City,Linn,module,Magento_Backend
 Host,Server,module,Magento_Backend
 "Set Return-Path","Määra Tagastustee",module,Magento_Backend
 "Startup Page",Avaleht,module,Magento_Backend
+"Recovery Link Expiration Period (hours)","Taastelingi aegumise periood (tundides)",module,Magento_Backend
+"Please enter a number 1 or greater in this field.","Sisestage sellele väljale 1 või suurem arv.",module,Magento_Backend
+"Add Secret Key to URLs","Lisa linkidele salajane võti",module,Magento_Backend
+"Login is Case Sensitive","Kasutajanimi on tõstutundlik",module,Magento_Backend
+"Admin Session Lifetime (seconds)","Admin seansi eluiga (sekundit)",module,Magento_Backend
+"Please enter at least 60 and at most 31536000 (one year).","Palun sisestage vähemalt 60 ja kõige rohkem 31536000 (üks aasta).",module,Magento_Backend
 "Enable Charts","Luba graafikud",module,Magento_Backend
+"Url Options","Url-i seaded",module,Magento_Backend
+"Add Store Code to Urls","Lisa poe kood Url-idele",module,Magento_Backend
+"Auto-redirect to Base URL","Suuna automaatselt baasURL-ile",module,Magento_Backend
+"Search Engine Optimization","Otsimootorite jaoks optimeerimine",module,Magento_Backend
+"Use Web Server Rewrites","Kasuta veebiserveri suunamisi",module,Magento_Backend
+"Base URLs",BaasURL,module,Magento_Backend
 "Base URL",BaasURL,module,Magento_Backend
+"Specify URL or {{base_url}} placeholder.","Määrake URL või {{base_url}} kohatäide.",module,Magento_Backend
+"Base Link URL","Baasi lingi URL",module,Magento_Backend
+"Base URL for Static View Files","Baas-URL staatiliste vaadete failide jaoks",module,Magento_Backend
+"May be empty or start with {{unsecure_base_url}} placeholder.","Võib olla tühi või alustada {{unsecure_base_url}} kohatäide.",module,Magento_Backend
+"Base URL for User Media Files","Baas-URL kasutaja meediumifailidele",module,Magento_Backend
+"Base URLs (Secure)","Baas URL'id (turvaline)",module,Magento_Backend
 "Secure Base URL","Turvaline baasURL",module,Magento_Backend
+"Specify URL or {{base_url}}, or {{unsecure_base_url}} placeholder.","Määrake URL või {{base_url}} või {{unsecure_base_url}} kohatäide.",module,Magento_Backend
+"Secure Base Link URL","Turvaline baas lingi URL",module,Magento_Backend
+"Secure Base URL for Static View Files","Turvaline Baas-URL staatiliste vaadete failide jaoks",module,Magento_Backend
 "Validate REMOTE_ADDR","Kinnitada REMOTE_ADDR",module,Magento_Backend
 "Validate HTTP_VIA","Valideeri HTTP_VIA",module,Magento_Backend
 "Validate HTTP_X_FORWARDED_FOR","Valideeri HTTP_X_FORWARDED_FOR",module,Magento_Backend
