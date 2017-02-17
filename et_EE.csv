@@ -1399,13 +1399,11 @@ Save,Salvesta,module,Magento_Shipping
 Action,Toiming,module,Magento_Shipping
 "Are you sure?",Kindel?,module,Magento_Shipping
 SKU,Laokood,module,Magento_Shipping
-Status:,Staatus:,module,Magento_Shipping
-Weight:,Kaal:,module,Magento_Shipping
+"Close Window","Sulge aken",module,Magento_Shipping
 Location,Asukoht,module,Magento_Shipping
 Date,Kuupäev,module,Magento_Shipping
 "Local Time","Kohalik aeg",module,Magento_Shipping
 Description,Kirjeldus,module,Magento_Shipping
-"Close Window","Sulge aken",module,Magento_Shipping
 "Edit Sitemap","Muuda SiteMap'i",module,Magento_Sitemap
 "Store View",Poevaade,module,Magento_Sitemap
 "Add Sitemap","Lisa Sitemap",module,Magento_Sitemap
@@ -1520,8 +1518,6 @@ Gift,Kink,module,Magento_Usps
 No,Ei,module,Magento_Variable
 Yes,Jah,module,Magento_Variable
 "No token found.","Tähist ei leitud.",module,Magento_Vault
-"Credit Card was successfully removed","Krediitkaart on edukalt eemaldatud",module,Magento_Vault
-"My Credit Cards","Minu krediitkaardid",module,Magento_Vault
 "Operation allowed only in HTTPS","Toiming on lubatud ainult HTTPS'i kasutades",module,Magento_Webapi
 "Not allowed parameters: %1. Please use only %2 and %3.","Pole lubatud parameetrid: %1. Kasutage ainult %2 ja %3.",module,Magento_Webapi
 Message,Sõnum,module,Magento_Webapi
