@@ -328,7 +328,6 @@ Minute,Minut,module,Magento_Backend
 "JavaScript may be disabled in your browser.","Võimalik, et Brauseri JavaScript on välja lülitatud.",module,Magento_Backend
 "To use this website you must first enable JavaScript in your browser.","Selle veebisaidi kasutamiseks peate esmalt lubama JavaScripti oma brauseris.",module,Magento_Backend
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","See on ainult demo pood. Tellimusi ei täideta.",module,Magento_Backend
-"Report Bugs","Teavita leitud veast",module,Magento_Backend
 "Store View:",Poevaade:,module,Magento_Backend
 "Stores Configuration","Salvestab konfiguratsiooni",module,Magento_Backend
 "Additional Cache Management","Täiendav vahemälu haldus",module,Magento_Backend
@@ -364,6 +363,8 @@ Country,Riik,module,Magento_Braintree
 "Braintree Settlement Report","Braintree Settlement aruanne",module,Magento_Braintree
 "Credit Card Type","Krediitkaardi tüüp",module,Magento_Braintree
 "Expiration Date",Aegumiskuupäev,module,Magento_Braintree
+Actions,Toimingud,module,Magento_Braintree
+Delete,Kustuta,module,Magento_Braintree
 "Percent Discount","Protsenti allahindlust",module,Magento_Bundle
 Dynamic,Dünaamiline,module,Magento_Bundle
 Fixed,Fikseeritud,module,Magento_Bundle
@@ -401,7 +402,6 @@ Always,Alati,module,Magento_Captcha
 "Reload captcha","Lae captcha uuesti",module,Magento_Captcha
 "Entity type model '%1' is not found","Olemi tüübi mudelit ""%1"" ei leitud",module,Magento_CatalogImportExport
 "There are no product types available for export.","Ekspordiks vajalikke tootetüüpe ei ole.",module,Magento_CatalogImportExport
-"Entity type model must be an instance of Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType","Olemi tüüp mudel peab olema näiteks """" \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_CatalogImportExport
 "Category ""%1"" has not been created.","Kategooria ""%1"" pole veel loodud.",module,Magento_CatalogImportExport
 "ALL GROUPS","KÕIK GRUPID",module,Magento_CatalogInventory
 "Customer Group",Kliendigrupp,module,Magento_CatalogInventory
@@ -563,7 +563,6 @@ Disabled,Keelatud,module,Magento_Catalog
 "Such product doesn't exist","Sellist toodet ei ole",module,Magento_Catalog
 "Such image doesn't exist","Sellist pilti ei ole",module,Magento_Catalog
 "We couldn't move this file: %1.","Me ei suutnud teisaldada seda faili: %1.",module,Magento_Catalog
-"We can't find the image file.","Me ei leia pildifaili.",module,Magento_Catalog
 "Please specify product's required option(s).","Palun määratlege toote nõutav(ad) omadus(ed).",module,Magento_Catalog
 "We can't add the product to the cart because of an option validation issue.","Me ei saa valiku kinnitamise vea tõttu toodet ostukorvi lisada.",module,Magento_Catalog
 "%1 doesn't extends \Magento\Catalog\Model\Product\Option\Type\DefaultType","%1 ei laienda \Magento\Catalog\Model\Product\Option\Type\DefaultType",module,Magento_Catalog
@@ -762,8 +761,6 @@ Download,"Lae alla",module,Magento_Customer
 "My Account","Minu konto",module,Magento_Customer
 Customers,Kliendid,module,Magento_Customer
 "Manage Customers","Halda kliente",module,Magento_Customer
-"Please enter the first name.","Sisesta eesnimi.",module,Magento_Customer
-"Please enter the last name.","Sisesta perekonnanimi.",module,Magento_Customer
 "Billing Address",Arveldusaadress,module,Magento_Customer
 "Shipping Address",Tarneaadress,module,Magento_Customer
 "-- Please Select --","-- Vali --",module,Magento_Customer
@@ -1244,7 +1241,6 @@ Catalog,Kataloog,module,Magento_SalesRule
 Alphanumeric,"Numbrid ja tähed",module,Magento_SalesRule
 Discount,Allahindlus,module,Magento_SalesRule
 "Total Weight",Kogukaal,module,Magento_SalesRule
-"Payment Method",Makseviis,module,Magento_SalesRule
 "Shipping Method",Tarneviis,module,Magento_SalesRule
 "Shipping Postcode",Tarneindeks,module,Magento_SalesRule
 "Shipping Region",Tarnepiirkond,module,Magento_SalesRule
@@ -1575,7 +1571,6 @@ Password,Salasõna,module,Magento_Checkout
 "Forgot Your Password?","Unustasid salasõna?",module,Magento_Checkout
 Update,Uuenda,module,Magento_Checkout
 Cancel,Tühista,module,Magento_Checkout
-Close,Sulge,module,Magento_Checkout
 Remove,Eemalda,module,Magento_Checkout
 "Shipping Address",Tarneaadress,module,Magento_Checkout
 "New Address","Uus aadress",module,Magento_Checkout
