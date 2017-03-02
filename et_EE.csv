@@ -954,9 +954,13 @@ Inactive,Mitteaktiivne,module,Magento_Integration
 Active,Aktiivne,module,Magento_Integration
 All,Kõik,module,Magento_Integration
 No,Ei,module,Magento_LayeredNavigation
+Position,Olulisus,module,Magento_LayeredNavigation
+"Now Shopping by","Ostlemise moodus",module,Magento_LayeredNavigation
 Previous,Eelmine,module,Magento_LayeredNavigation
 Remove,Eemalda,module,Magento_LayeredNavigation
 "Remove This Item","Eemalda toode",module,Magento_LayeredNavigation
+"Shop By",Vali,module,Magento_LayeredNavigation
+"Clear All","Eemada kõik",module,Magento_LayeredNavigation
 "Platinum Partners","Platinum partnerid",module,Magento_Marketplace
 Synchronize,Sünkroniseeri,module,Magento_MediaStorage
 "Synchronizing %1 to %2","Sünkroonimine %1 %2",module,Magento_MediaStorage
