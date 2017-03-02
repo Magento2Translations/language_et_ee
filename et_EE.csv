@@ -822,8 +822,11 @@ Edit,Muuda,module,Magento_Integration
 Inactive,Mitteaktiivne,module,Magento_Integration
 Active,Aktiivne,module,Magento_Integration
 No,Ei,module,Magento_LayeredNavigation
+Position,Olulisus,module,Magento_LayeredNavigation
 Previous,Eelmine,module,Magento_LayeredNavigation
 "Remove This Item","Eemalda toode",module,Magento_LayeredNavigation
+"Shop By",Vali,module,Magento_LayeredNavigation
+"Clear All","Eemada kõik",module,Magento_LayeredNavigation
 "Platinum Partners","Platinum partnerid",module,Magento_Marketplace
 "File system",Failisüsteem,module,Magento_MediaStorage
 "Change Billing Address","Muuda arveldusaadressi",module,Magento_Multishipping
