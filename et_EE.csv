@@ -409,10 +409,12 @@ Root,Peamine,module,Magento_Catalog
 "New Root Category","Uus juurkategooria",module,Magento_Catalog
 "Set Root Category for Store","Määra poe juurkategooria",module,Magento_Catalog
 "Use Config Settings","Kasuta üldseadeid",module,Magento_Catalog
+"Use All Available Attributes","Kasutada kõik saadaolevaid atribuute",module,Magento_Catalog
 "Custom Design","Kohandatud disain",module,Magento_Catalog
 Name,Nimi,module,Magento_Catalog
 SKU,Laokood,module,Magento_Catalog
 Price,Hind,module,Magento_Catalog
+Position,Positsioon,module,Magento_Catalog
 "Category Data","Kategooria andmed",module,Magento_Catalog
 "Category Products","Kategooria tooted",module,Magento_Catalog
 "Add Subcategory","Lisa alamkategooria",module,Magento_Catalog
@@ -420,18 +422,29 @@ Price,Hind,module,Magento_Catalog
 Day,Päev,module,Magento_Catalog
 Month,Kuu,module,Magento_Catalog
 Year,Aasta,module,Magento_Catalog
+"<label class=""label""><span>from</span></label>","<label class=""label""> <span>alates</span></label>",module,Magento_Catalog
+"<label class=""label""><span>to</span></label>","<label class=""label""> <span>kuni</span></label>",module,Magento_Catalog
+[GLOBAL],[GLOBAALNE],module,Magento_Catalog
+"[STORE VIEW]",[POEVAADE],module,Magento_Catalog
+"WYSIWYG Editor","WYSIWYG redaktor",module,Magento_Catalog
 "Add Product","Lisa toode",module,Magento_Catalog
+label,silt,module,Magento_Catalog
 "Product Attributes",Tooteatribuudid,module,Magento_Catalog
 "Add New Attribute","Lisa uus atribuut",module,Magento_Catalog
+"Save in New Attribute Set","Salvesta uude atribuudikogumisse",module,Magento_Catalog
+"Enter Name for New Attribute Set","Sisestage uue atribuudi kogumi nimi",module,Magento_Catalog
 "Save and Continue Edit","Salvesta ja jätka muutmist",module,Magento_Catalog
 "Save Attribute","Salvesta atribuut",module,Magento_Catalog
 "Delete Attribute","Kustuta atribuut",module,Magento_Catalog
+"Edit Product Attribute ""%1""","Muuda tooteatribuuti ""%1""",module,Magento_Catalog
 "New Product Attribute","Uus tooteatribuut",module,Magento_Catalog
+"Advanced Attribute Properties","Täiustatud atribuudi sätted",module,Magento_Catalog
 "Attribute Code",Atribuudikood,module,Magento_Catalog
 "Default Value",Vaikeväärtus,module,Magento_Catalog
 "Unique Value","Unikaalne väärtus",module,Magento_Catalog
 "Unique Value (not shared with other products)","Unikaalne väärtus (ei jagata teiste toodetega)",module,Magento_Catalog
 "Not shared with other products","Ei jagata teiste toodetega",module,Magento_Catalog
+"Input Validation for Store Owner","Sisendi kontroll poe omanikule",module,Magento_Catalog
 "Store View",Poevaade,module,Magento_Catalog
 "Declare attribute value saving scope","Deklareerige atribuudi väärtuse kehtivuspiirkond",module,Magento_Catalog
 "Enable WYSIWYG","Luba WYSIWYG",module,Magento_Catalog
