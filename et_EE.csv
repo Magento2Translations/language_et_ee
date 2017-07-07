@@ -1036,6 +1036,7 @@ Remove,Eemalda,module,Magento_LayeredNavigation
 "Remove This Item","Eemalda toode",module,Magento_LayeredNavigation
 "Shop By",Vali,module,Magento_LayeredNavigation
 "Clear All","Eemada kõik",module,Magento_LayeredNavigation
+Partners,Partnerid,module,Magento_Marketplace
 "Platinum Partners","Platinum partnerid",module,Magento_Marketplace
 Synchronize,Sünkroniseeri,module,Magento_MediaStorage
 "Synchronizing %1 to %2","Sünkroonimine %1 %2",module,Magento_MediaStorage
@@ -1043,6 +1044,7 @@ Synchronizing...,Sünkroonimine...,module,Magento_MediaStorage
 "File System",Failisüsteem,module,Magento_MediaStorage
 Database,Andmebaas,module,Magento_MediaStorage
 "File system",Failisüsteem,module,Magento_MediaStorage
+"To see product price, add this item to your cart. You can always remove it later.","Toote hinna nägemiseks lisage see ostukorvi. Te saate selle alati hiljem eemaldada.",module,Magento_Msrp
 "See price before order confirmation.","Hindade näitamine enne tellimuse kinnitamist.",module,Magento_Msrp
 "On Gesture",Viiped,module,Magento_Msrp
 "In Cart",Ostukorvis,module,Magento_Msrp
@@ -1081,6 +1083,7 @@ Price,Hind,module,Magento_Multishipping
 "Continue Shopping","Jätka ostlemist",module,Magento_Multishipping
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
                         information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","New Relic integratsiooniks on vaja newrelic-php5 agenti, mis ei ole installitud. Rohkem infot agendi installimise kohta  leiate klikkides <a target=""_blank"" href=""%1""> siin</a>.",module,Magento_NewRelicReporting
+"Delete Selected Problems","Kustuta valitud probleemid",module,Magento_Newsletter
 "Unsubscribe Selected","Eemalda valitud",module,Magento_Newsletter
 Back,Tagasi,module,Magento_Newsletter
 "Sender Name","Saatja nimi",module,Magento_Newsletter
@@ -1105,6 +1108,7 @@ Region/State,Piirkond/maakond,module,Magento_OfflineShipping
 No,Ei,module,Magento_OfflineShipping
 "Ttl value ""%1"" is not valid. Please use only numbers equal or greater than zero.","TTL väärtus ""%1"" ei sobi. Kasutage ainult numbreid, mis on võrdne või suurem kui null.",module,Magento_PageCache
 "Varnish Caching","Varnish vahemällu",module,Magento_PageCache
+"We cannot retrieve the payment method model object.","Me ei saa tuua makseviisi mudeli objekti.",module,Magento_Payment
 Month,Kuu,module,Magento_Payment
 Year,Aasta,module,Magento_Payment
 "Credit Card Type","Krediitkaardi tüüp",module,Magento_Payment
@@ -1115,6 +1119,7 @@ Yes,Jah,module,Magento_Payment
 No,Ei,module,Magento_Payment
 "Expiration Date",Aegumiskuupäev,module,Magento_Payment
 "Start Date",Alguskuupäev,module,Magento_Payment
+"Billing Agreements",Arvelduslepped,module,Magento_Paypal
 Email,E-post,module,Magento_Paypal
 "First Name",Eesnimi,module,Magento_Paypal
 "Last Name",Perekonnanimi,module,Magento_Paypal
@@ -1164,14 +1169,17 @@ Qty,Kogus,module,Magento_Paypal
 or,või,module,Magento_Paypal
 Continue,Jätka,module,Magento_Paypal
 "What is PayPal?","Mis on PayPal?",module,Magento_Paypal
+"Not you?","Mitte sina?",module,Magento_Persistent
 "Your shopping cart has been updated with new prices.","Teie ostukorvi hinnad on uuendatud vastavalt uutele hindadele.",module,Magento_Persistent
 "Welcome, %1!","Teretulemast, %1!",module,Magento_Persistent
 "Method ""%1"" is not defined in ""%2""","Meetod ""%1"" ei ole määratletud ""%2"" 's",module,Magento_Persistent
 "What's this?","Mis see on?",module,Magento_Persistent
+"You saved the alert subscription.","Teatiste tellimus salvestatud.",module,Magento_ProductAlert
 "There are not enough parameters.","Ei ole piisavalt parameetreid.",module,Magento_ProductAlert
 "You deleted the alert subscription.","Kustutasite hoiatuse teatiste tellimuse.",module,Magento_ProductAlert
 "The product was not found.","Toodet ei leitud.",module,Magento_ProductAlert
 Price:,Hind:,module,Magento_ProductAlert
+Url,URL,module,Magento_ProductVideo
 Title,Pealkiri,module,Magento_ProductVideo
 Description,Kirjeldus,module,Magento_ProductVideo
 "Get Video Information","Küsi Video teavet",module,Magento_ProductVideo
@@ -1182,6 +1190,7 @@ Role,Roll,module,Magento_ProductVideo
 "Could not apply coupon code","Kupongi koodi ei saa rakendada",module,Magento_Quote
 "Could not delete coupon code","Kupongi koodi ei saanud kustutada",module,Magento_Quote
 Discount,Allahindlus,module,Magento_Quote
+"New Accounts","Uued kontod",module,Magento_Reports
 "Customers by number of orders","Kliendid tellimuste arvu järgi",module,Magento_Reports
 "Customers by Orders Total","Kliendid käibe järgi",module,Magento_Reports
 "Date Used","Kasutatud kuupäev",module,Magento_Reports
@@ -1232,6 +1241,7 @@ Error,Viga,module,Magento_Reports
 "Add to Wish List","Lisa soovinimekirja",module,Magento_Reports
 "Add to Compare","Lisa võrdlusesse",module,Magento_Reports
 "Learn More","Tutvu lähemalt",module,Magento_Reports
+"Save Review","Salvesta arvustus",module,Magento_Review
 "New Review","Uus arvustus",module,Magento_Review
 "Review Details","Vaata lähemalt",module,Magento_Review
 Product,Toode,module,Magento_Review
@@ -1275,6 +1285,7 @@ Back,Tagasi,module,Magento_Review
 Summary,Kokkuvõte,module,Magento_Review
 "Add Your Review","Lisa arvustus",module,Magento_Review
 "Average Customer Rating","Keskmine hinnang",module,Magento_Review
+"Page not found.","Lehte ei leitud.",module,Magento_Rss
 Feed,Uudisvoog,module,Magento_Rss
 Apply,Rakenda,module,Magento_Rule
 "Please choose a valid discount amount.","Valige kehtiv allahindluse määr.",module,Magento_Rule
@@ -1295,6 +1306,7 @@ FALSE,VALE,module,Magento_Rule
 "Conditions Combination","Tingimuste kombinatsioon",module,Magento_Rule
 "Attribute Set",Atribuudikogum,module,Magento_Rule
 Category,Kategooria,module,Magento_Rule
+"Cart Price Rules","Ostukorvi hinna reeglid",module,Magento_SalesRule
 "Add New Rule","Lisa uus reegel",module,Magento_SalesRule
 "Save and Continue Edit","Salvesta ja jätka muutmist",module,Magento_SalesRule
 "Edit Rule '%1'","Muuda reeglit '%1'",module,Magento_SalesRule
@@ -1431,6 +1443,7 @@ Actions,Toimingud,module,Magento_Sales
 Close,Sulge,module,Magento_Sales
 "Add to Cart","Lisa ostukorvi",module,Magento_Sales
 Search,Otsi,module,Magento_Sales
+"Search Term",Otsisõna,module,Magento_Search
 Results,Tulemused,module,Magento_Search
 Search,Otsi,module,Magento_Search
 "Add New Search Term","Lisada uus otsisõna",module,Magento_Search
@@ -1440,6 +1453,7 @@ No,Ei,module,Magento_Search
 Yes,Jah,module,Magento_Search
 Store,Pood,module,Magento_Search
 "Edit Search","Muuda otsingut",module,Magento_Search
+"Page not found.","Lehte ei leitud.",module,Magento_SendFriend
 "Some emails were not sent.","Mõned e-kirjad jäid saatmata.",module,Magento_SendFriend
 "IP Address","IP aadress",module,Magento_SendFriend
 Remove,Eemalda,module,Magento_SendFriend
@@ -1448,6 +1462,7 @@ Email,E-post,module,Magento_SendFriend
 "* Required Fields","* Kohustuslikud väljad",module,Magento_SendFriend
 Message,Sõnum,module,Magento_SendFriend
 Back,Tagasi,module,Magento_SendFriend
+"New Shipment for Order #%1","Uus saadetis tellimusele %1",module,Magento_Shipping
 "Submit Shipment","Saada postitus",module,Magento_Shipping
 "The value that you entered is not valid.","Teie sisestatud väärtus ei sobi.",module,Magento_Shipping
 Add,Lisa,module,Magento_Shipping
@@ -1481,6 +1496,7 @@ Date,Kuupäev,module,Magento_Shipping
 "Local Time","Kohalik aeg",module,Magento_Shipping
 Description,Kirjeldus,module,Magento_Shipping
 "Close Window","Sulge aken",module,Magento_Shipping
+"Save & Generate","Salvesta ja genereeri",module,Magento_Sitemap
 "Edit Sitemap","Muuda SiteMap'i",module,Magento_Sitemap
 "Store View",Poevaade,module,Magento_Sitemap
 "Add Sitemap","Lisa Sitemap",module,Magento_Sitemap
@@ -1497,11 +1513,13 @@ All,Kõik,module,Magento_Sitemap
 "All Store Views","Kõik poevaated",module,Magento_Store
 "-- Please Select --","-- Vali --",module,Magento_Store
 "Swatch Helper: not valid parameter for product instantiation","Proovilapi abiline: Kehtetu parameeter toote näites",module,Magento_Swatches
+"Admin is a required field in the each row","Admin on kohustuslik väli igal real",module,Magento_Swatches
 "Update Product Preview Image","Uuenda Toote Eelvaate Pilti",module,Magento_Swatches
 Delete,Kustuta,module,Magento_Swatches
 Code,Kood,module,Magento_TaxImportExport
 Country,Riik,module,Magento_TaxImportExport
 Rate,Hinda,module,Magento_TaxImportExport
+"Tax Rate Information","Maksumäära info",module,Magento_Tax
 "Tax Identifier","Maksu tunnus",module,Magento_Tax
 Country,Riik,module,Magento_Tax
 "Add New Tax Rate","Lisa uus maksumäär",module,Magento_Tax
@@ -1537,14 +1555,18 @@ Remove,Eemalda,module,Magento_Theme
 Previous,Eelmine,module,Magento_Theme
 Next,Järgmine,module,Magento_Theme
 Close,Sulge,module,Magento_Theme
+"Dictionary (Translation on Storefront side)","Sõnastik (tõlge poe poolel)",module,Magento_Translation
 "Embedded (Translation on Admin side)","Põimitud (tõlge Admin poolel)",module,Magento_Translation
+"Condition type ""%1"" is not allowed","Tingimuse tüüp ""%1"" ei ole lubatud",module,Magento_Ui
 "The configuration parameter ""formElement"" is a required for ""%1"" field.","Konfiguratsiooni parameeter ""formElement"" on vaja ""%1"" väljale.",module,Magento_Ui
 "New %1","Uus %1",module,Magento_Ui
 Next,Järgmine,module,Magento_Ui
 Back,Tagasi,module,Magento_Ui
 Cancel,Tühista,module,Magento_Ui
+"UPS Next Day Air","UPS järgmise päeva lennu",module,Magento_Ups
 "UPS Second Day Air","UPS teise päeva Lennupost",module,Magento_Ups
 "UPS Worldwide Expedited","UPS kogu maailmas ekspedeeritud",module,Magento_Ups
+"Edit URL Rewrite for a Category","Muuda URL ümberkirjutamine kategooriale",module,Magento_UrlRewrite
 "Add URL Rewrite for a Category","Lisa URL-i suunamine kategooriale",module,Magento_UrlRewrite
 "We can't set up a URL rewrite because the product you chose is not associated with a website.","Me ei saa luua URL ümberkirjutamist, sest valitud toode ei ole seotud veebilehega.",module,Magento_UrlRewrite
 "Please assign a website to the selected category.","Palun määrata kategooriale veebileht.",module,Magento_UrlRewrite
@@ -1581,11 +1603,13 @@ Permissions,Õigused,module,Magento_User
 "Forgot your password?","Unustasid salasõna?",module,Magento_User
 "Confirm New Password","Kinnita uus salasõna",module,Magento_User
 All,Kõik,module,Magento_User
+"First-Class Mail Large Envelope","Esimese klassi posti suur ümbrik",module,Magento_Usps
 "First-Class Mail Letter","Esimese klassi posti kiri",module,Magento_Usps
 Yes,Jah,module,Magento_Usps
 No,Ei,module,Magento_Usps
 Sample,Näidis,module,Magento_Usps
 Gift,Kink,module,Magento_Usps
+"Custom Variables","Kohandatud muutujad",module,Magento_Variable
 "Add New Variable","Lisa uus muutuja",module,Magento_Variable
 "Save and Continue Edit","Salvesta ja jätka muutmist",module,Magento_Variable
 "New Custom Variable","Uus kohandatud muutuja",module,Magento_Variable
@@ -1595,11 +1619,13 @@ Yes,Jah,module,Magento_Variable
 "Authentication header format is invalid.","Autentimise päise vorming ei sobi.",module,Magento_Webapi
 "Not allowed parameters: %1. Please use only %2 and %3.","Pole lubatud parameetrid: %1. Kasutage ainult %2 ja %3.",module,Magento_Webapi
 Message,Sõnum,module,Magento_Webapi
+"Add Tax","Lisa maks",module,Magento_Weee
 "Delete Tax","Kustutada see maks",module,Magento_Weee
 "Excl. Tax","Ilma maksuta",module,Magento_Weee
 Total,Kokku,module,Magento_Weee
 "Incl. Tax","Koos maksuga",module,Magento_Weee
 Action,Toiming,module,Magento_Weee
+"Widget Insertion","Vidina lisamine",module,Magento_Widget
 "Insert Widget","Vidina lisamine",module,Magento_Widget
 Choose...,Vali...,module,Magento_Widget
 Close,Sulge,module,Magento_Widget
@@ -1615,6 +1641,7 @@ Continue,Jätka,module,Magento_Widget
 CMS,Sisuhaldus,module,Magento_Widget
 All,Kõik,module,Magento_Widget
 Apply,Rakenda,module,Magento_Widget
+"Wish List",Soovinimekiri,module,Magento_Wishlist
 "Wish List Sharing","Soovinimekirja jagamine",module,Magento_Wishlist
 "Page not found.","Lehte ei leitud.",module,Magento_Wishlist
 Comment,Kommentaar,module,Magento_Wishlist
