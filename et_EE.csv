@@ -75,9 +75,7 @@ void,tühine,module,Magento_Authorizenet
 "Authorize Only","Lubada ainult",module,Magento_Authorizenet
 "Authorize and Capture","Lubada ja salvesta",module,Magento_Authorizenet
 "Unable to get transaction details. Try again later.","Ei suutnud saada tehingu andmeid. Palun proovige hiljem uuesti.",module,Magento_Authorizenet
-"Electronic payments save the trees.","Elektrooniline makse säästab puid.",module,Magento_Authorizenet
 "Credit Card Type","Krediitkaardi tüüp",module,Magento_Authorizenet
-"Please Select","Palun valige",module,Magento_Authorizenet
 "Credit Card Number","Krediitkaardi number",module,Magento_Authorizenet
 "Expiration Date",Aegumiskuupäev,module,Magento_Authorizenet
 "Card Verification Number","Kaardi turvakood",module,Magento_Authorizenet
@@ -186,10 +184,10 @@ No,Ei,module,Magento_Backend
 "Store Information",Poeteave,module,Magento_Backend
 "Web Site",Veebileht,module,Magento_Backend
 Name,Nimi,module,Magento_Backend
-Code,Kood,module,Magento_Backend
 "Root Category",Juurkategooria,module,Magento_Backend
 "Default Store View","Vaikimisi poevaade",module,Magento_Backend
 "Store View Information","Poevaate informatsioon",module,Magento_Backend
+Code,Kood,module,Magento_Backend
 Status,Staatus,module,Magento_Backend
 Disabled,Keelatud,module,Magento_Backend
 Enabled,Lubatud,module,Magento_Backend
@@ -276,12 +274,11 @@ System,Süsteem,module,Magento_Backend
 "The store does not exist","Poodi ei leitud",module,Magento_Backend
 "Store view doesn't exist","Poevaadet ei ole olemas",module,Magento_Backend
 "Before modifying the store view code please make sure it is not used in index.php.","Enne poevaate koodi muutmist veenduge, et seda ei ole kasutatud index.php-s.",module,Magento_Backend
-"All Stores","Kõik poed",module,Magento_Backend
 "You saved the website.","Salvestasite veebilehe.",module,Magento_Backend
-"The default store cannot be disabled","Vaikimisi pood ei saa olla keelatud",module,Magento_Backend
-"You saved the store view.","Poevaade salvestatud.",module,Magento_Backend
 "An inactive store view cannot be saved as default store view","Passiivset poevaadet ei saa vaikevaateks seadistada",module,Magento_Backend
 "You saved the store.","Pood salvestatud.",module,Magento_Backend
+"The default store cannot be disabled","Vaikimisi pood ei saa olla keelatud",module,Magento_Backend
+"You saved the store view.","Poevaade salvestatud.",module,Magento_Backend
 "Something went wrong while saving. Please review the error log.","Salvestamisel läks midagi valesti. Palun uurige vea-logist.",module,Magento_Backend
 "Last 24 Hours","Viimased 24 tundi",module,Magento_Backend
 "Last 7 Days","Viimased seitse päeva",module,Magento_Backend
@@ -316,7 +313,7 @@ password,salasõna,module,Magento_Backend
 "All Websites","Kõik veebisaidid",module,Magento_Backend
 "Reload Data","Lae andmed uuesti",module,Magento_Backend
 "Browse Files...","Vali failid...",module,Magento_Backend
-"Copyright &copy; %1 Magento Commerce Inc. All rights reserved.","Kasutusõigused © %1 Magento Commerce Inc. Kõik õigused kaitstud.",module,Magento_Backend
+"Copyright &copy; %1 Magento, Inc. All rights reserved.","Copyright &copy; %1 Magento, Inc Kõik õigused kaitstud.",module,Magento_Backend
 "Magento Admin Panel","Magento haldusliides",module,Magento_Backend
 "Account Setting","Konto seaded",module,Magento_Backend
 "Customer View","Kliendi vaade",module,Magento_Backend
@@ -333,7 +330,7 @@ Minute,Minut,module,Magento_Backend
 "JavaScript may be disabled in your browser.","Võimalik, et Brauseri JavaScript on välja lülitatud.",module,Magento_Backend
 "To use this website you must first enable JavaScript in your browser.","Selle veebisaidi kasutamiseks peate esmalt lubama JavaScripti oma brauseris.",module,Magento_Backend
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","See on ainult demo pood. Tellimusi ei täideta.",module,Magento_Backend
-"Report an Issue","Tevita probleemist",module,Magento_Backend
+"Report Bugs","Teavita leitud veast",module,Magento_Backend
 "Store View:",Poevaade:,module,Magento_Backend
 "Stores Configuration","Salvestab konfiguratsiooni",module,Magento_Backend
 "Additional Cache Management","Täiendav vahemälu haldus",module,Magento_Backend
@@ -430,7 +427,6 @@ Authorize,Autoriseeri,module,Magento_Braintree
 "Card Verification Number","Kaardi turvakood",module,Magento_Braintree
 "Please, enter valid Card Verification Number","Palun sisestage korrektne krediitkaardi kontrollkood",module,Magento_Braintree
 expires,aegub,module,Magento_Braintree
-"Are you sure you want to delete this PayPal account","Olete kindel et soovite kustutada seda PayPali kontot",module,Magento_Braintree
 "PayPal Account","Paypali konto",module,Magento_Braintree
 "PayPal Logo","Paypali logo",module,Magento_Braintree
 Actions,Toimingud,module,Magento_Braintree
@@ -786,7 +782,6 @@ None,Puudub,module,Magento_Catalog
 Categories,Kategooriad,module,Magento_Catalog
 "Category is not available for requested store.","Kategooria ei ole selles poes saadaval.",module,Magento_Catalog
 "There was a category move error.","Kategooria liigutamisel ilmses viga.",module,Magento_Catalog
-"You moved the category.","Kategooria liigutatud.",module,Magento_Catalog
 "Attribute ""%1"" is required.","Atribuut ""%1"" on kohustuslik.",module,Magento_Catalog
 "You saved the category.","Kategooria salvestatud.",module,Magento_Catalog
 "Something went wrong while saving the category.","Midagi läks valesti kategooria salvestamisel.",module,Magento_Catalog
@@ -808,7 +803,6 @@ Catalog,Kataloog,module,Magento_Catalog
 "An attribute with this code already exists.","Selle koodiga atribuut juba eksisteerib.",module,Magento_Catalog
 "An attribute with the same code (%1) already exists.","Atribuut sama koodiga (%1) juba eksisteerib.",module,Magento_Catalog
 "The value of Admin must be unique.","Admini väärtus peab olema unikaalne.",module,Magento_Catalog
-"The value of Admin scope can't be empty.","Administraatori skoopi väärtus ei saa olla tühi.",module,Magento_Catalog
 "You duplicated the product.","Toode duubeldatud.",module,Magento_Catalog
 "This product doesn't exist.","Sellist toodet ei ole.",module,Magento_Catalog
 Products,Tooted,module,Magento_Catalog
@@ -834,8 +828,6 @@ Products,Tooted,module,Magento_Catalog
 "Something went wrong  clearing the comparison list.","Midagi läks valesti võrdlusnimekirja tühjendamisel.",module,Magento_Catalog
 "1 item","1 toode",module,Magento_Catalog
 "%1 items","%1 toodet",module,Magento_Catalog
-"Are you sure you want to remove this item from your Compare Products list?","Kas soovite eemaldada selle toote võrdlusest?",module,Magento_Catalog
-"Are you sure you want to remove all items from your Compare Products list?","Olete kindel et soovite eemaldada kõik tooted võrdlusest?",module,Magento_Catalog
 "Invalid attribute %1","Vale atribuut %1",module,Magento_Catalog
 Grid,Ruudustik,module,Magento_Catalog
 List,Nimekiri,module,Magento_Catalog
@@ -866,7 +858,6 @@ frontend_label,poevaate_silt,module,Magento_Catalog
 Manual,Käsitsi,module,Magento_Catalog
 Fixed,Fikseeritud,module,Magento_Catalog
 Percent,Protsent,module,Magento_Catalog
-Discount,Allahindlus,module,Magento_Catalog
 "-- Please select --","-- Vali --",module,Magento_Catalog
 "Parent Product Thumbnail","Peatoote pisipilt",module,Magento_Catalog
 Stretch,Venita,module,Magento_Catalog
@@ -906,6 +897,7 @@ Disabled,Keelatud,module,Magento_Catalog
 "The image does not exist.","Pilt ei eksisteeri.",module,Magento_Catalog
 "Please correct the image file type.","Palun parandage pildi faili tüüp.",module,Magento_Catalog
 "We couldn't move this file: %1.","Me ei suutnud teisaldada seda faili: %1.",module,Magento_Catalog
+"We can't find the image file.","Me ei leia pildifaili.",module,Magento_Catalog
 "Please specify product's required option(s).","Palun määratlege toote nõutav(ad) omadus(ed).",module,Magento_Catalog
 "We can't add the product to the cart because of an option validation issue.","Me ei saa valiku kinnitamise vea tõttu toodet ostukorvi lisada.",module,Magento_Catalog
 "%1 doesn't extends \Magento\Catalog\Model\Product\Option\Type\DefaultType","%1 ei laienda \Magento\Catalog\Model\Product\Option\Type\DefaultType",module,Magento_Catalog
@@ -915,8 +907,6 @@ Disabled,Keelatud,module,Magento_Catalog
 "Option required.","Vajalik väärtus.",module,Magento_Catalog
 "The file is empty. Please choose another one","Fail on tühi. Palun valige teine fail",module,Magento_Catalog
 "The text is too long.","Tekst on liiga pikk.",module,Magento_Catalog
-"Could not save Prices.","Ei saa hindasi salvestada.",module,Magento_Catalog
-"Could not delete Prices","Ei saa hindasi kustutada",module,Magento_Catalog
 "This product doesn't have tier price","Sellel tootel ei ole astmelist hinda",module,Magento_Catalog
 "Product hasn't group price with such data: customerGroupId = '%1', website = %2, qty = %3","Tootel ei ole sellistel tingimustel grupihinda: kliendiGrupiId = '%1', veebisait = %2, kogus = %3",module,Magento_Catalog
 "Please provide valid data","Palun sisestage korrektsed andmed",module,Magento_Catalog
@@ -932,7 +922,6 @@ Search,Otsi,module,Magento_Catalog
 "Requested product doesn't exist","Päritud toodet ei ole olemas",module,Magento_Catalog
 "Requested product does not support images.","Päritud toode ei toeta pilte.",module,Magento_Catalog
 "Invalid product data: %1","Vigased toote andmed: %1",module,Magento_Catalog
-"Database connection error","Andmebaasi ühenduse viga",module,Magento_Catalog
 "Unable to remove product %1","Ei saa eemaldada toodet %1",module,Magento_Catalog
 "Attribute '%1' is locked. %2","Atribuut ""%1"" on lukus. %2",module,Magento_Catalog
 "%1 doesn't extend \Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\DefaultPrice","%1 ei laienda \Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\DefaultPrice",module,Magento_Catalog
@@ -940,12 +929,10 @@ Search,Otsi,module,Magento_Catalog
 Dropdown,Rippvalik,module,Magento_Catalog
 "%1 doesn't extend \Magento\Framework\Filter\Template","%1 ei laienda \Magento\Framework\Filter\Template",module,Magento_Catalog
 "As low as",Alates,module,Magento_Catalog
-"Some exception","Mõni erand",module,Magento_Catalog
 message,sõnum,module,Magento_Catalog
 Images,Pildid,module,Magento_Catalog
 Select...,Vali...,module,Magento_Catalog
 "Advanced Pricing","Täpsem hinnastamine",module,Magento_Catalog
-"Customer Group Price","Kliendigrupi hind",module,Magento_Catalog
 "Customer Group",Kliendigrupp,module,Magento_Catalog
 "Special Price From","Soodushind alates",module,Magento_Catalog
 To,Kuni,module,Magento_Catalog
@@ -1234,9 +1221,9 @@ Pages,Lehed,module,Magento_Cms
 "Disabled Completely","Täielikult keelatud",module,Magento_Cms
 "Could not save the page: %1","Ei saa salvestada lehte: %1",module,Magento_Cms
 "Could not delete the page: %1","Ei saa kustutada lehte: %1",module,Magento_Cms
+"All Store Views","Kõik poevaated",module,Magento_Cms
 Edit,Muuda,module,Magento_Cms
 Delete,Kustuta,module,Magento_Cms
-"All Store Views","Kõik poevaated",module,Magento_Cms
 View,Kuva,module,Magento_Cms
 "Default Config",Vaikeseaded,module,Magento_Config
 "Save Config","Salvesta seaded",module,Magento_Config
@@ -1355,8 +1342,8 @@ System,Süsteem,module,Magento_CurrencySymbol
 "Please enter a valid email.","Palun sisesta korrektne e-posti aadress.",module,Magento_CustomerImportExport
 "Sign Out","Logi välja",module,Magento_Customer
 "Sign In","Logi Sisse",module,Magento_Customer
-"You are subscribed to our newsletter.","Olete liitunud meie uudiskirjaga.",module,Magento_Customer
-"You aren't subscribed to our newsletter.","Te ei ole liitunud meie uudiskirjaga.",module,Magento_Customer
+"You subscribe to our newsletter.","Liitute meie uudiskirjaga.",module,Magento_Customer
+"You don't subscribe to our newsletter.","Te ei liitu meie uudiskirjaga.",module,Magento_Customer
 "You have not set a default shipping address.","Teil pole seatud vaike tarneaadressi.",module,Magento_Customer
 "You have not set a default billing address.","Vaikimisi arveldusaadressi pole valitud.",module,Magento_Customer
 "Address Book",Aadressiraamat,module,Magento_Customer
@@ -1457,11 +1444,11 @@ Download,"Lae alla",module,Magento_Customer
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","Kui olete Käibemaksukohustuslasena registreeritud klient, palun kliki <a href=""%1""> siia</a> sisestada oma arveaadress õige käibemaksu arvutamiseks.",module,Magento_Customer
 "Account Information","Konto andmed",module,Magento_Customer
 "You saved the account information.","Info salvestatud.",module,Magento_Customer
-"You did not sign in correctly or your account is temporarily disabled.","Te ei Logi sisse õigesti või teie konto on ajutiselt keelatud.",module,Magento_Customer
 "Password confirmation doesn't match entered password.","Paroolid ei kattu.",module,Magento_Customer
 "Please correct the email address.","Palun parandage e-postiaadress.",module,Magento_Customer
 "Please enter your email.","Palun sisesta e-posti aadress.",module,Magento_Customer
 "My Account","Minu konto",module,Magento_Customer
+"Invalid login or password.","Vale kasutajatunnus või salasõna.",module,Magento_Customer
 "A login and a password are required.","Kasutajanimi ja salasõna on nõutud.",module,Magento_Customer
 "New Password and Confirm New Password values didn't match.","Uus salasõna ning uue salasõna kordus ei kattunud.",module,Magento_Customer
 "Please enter a new password.","Palun sisestage uus salasõna.",module,Magento_Customer
@@ -1491,10 +1478,12 @@ Customers,Kliendid,module,Magento_Customer
 "Online Customers","Kliendid poes",module,Magento_Customer
 "Customers Now Online","Kliendid hetkel poes",module,Magento_Customer
 "Login successful.","Sisselogimine õnnestus.",module,Magento_Customer
-"Invalid login or password.","Vale kasutajatunnus või salasõna.",module,Magento_Customer
 "No confirmation needed.","Kinnitust pole vaja.",module,Magento_Customer
 "This customer already exists in this store.","Klient juba eksisteerib selles poes.",module,Magento_Customer
 "A customer with the same email already exists in an associated website.","Seotud veebilehel sama e-postiga klient juba eksisteerib.",module,Magento_Customer
+"Please enter the first name.","Sisesta eesnimi.",module,Magento_Customer
+"Please enter the last name.","Sisesta perekonnanimi.",module,Magento_Customer
+"Please enter the zip/postal code.","Sisesta postiindeks.",module,Magento_Customer
 "Billing Address",Arveldusaadress,module,Magento_Customer
 "Shipping Address",Tarneaadress,module,Magento_Customer
 "-- Please Select --","-- Vali --",module,Magento_Customer
@@ -1523,7 +1512,7 @@ Change,Vaheta,module,Magento_Customer
 "Contact Information",Kontaktandmed,module,Magento_Customer
 "Change Password","Muuda salasõna",module,Magento_Customer
 Newsletters,Uudiskirjad,module,Magento_Customer
-"You are subscribed to ""General Subscription"".","Olete tellinud ""Üldtellimus"".",module,Magento_Customer
+"You subscribe to ""General Subscription"".","Olete tellinud ""Üldtellimus"".",module,Magento_Customer
 or,või,module,Magento_Customer
 "Default Addresses",Vaikeaadress,module,Magento_Customer
 "Change Billing Address","Muuda arveldusaadressi",module,Magento_Customer
@@ -1532,6 +1521,9 @@ or,või,module,Magento_Customer
 "You have no default shipping address in your address book.","Teil puudub vaikimisi saateaadress aadressiraamatus.",module,Magento_Customer
 "Delete Address","Kustuta aadress",module,Magento_Customer
 "* Required Fields","* Kohustuslikud väljad",module,Magento_Customer
+Company,Ettevõte,module,Magento_Customer
+"Phone Number",Telefon,module,Magento_Customer
+Fax,Faks,module,Magento_Customer
 Address,Aadress,module,Magento_Customer
 "Street Address","Tänav, maja",module,Magento_Customer
 City,Linn,module,Magento_Customer
@@ -1568,13 +1560,9 @@ Password,Salasõna,module,Magento_Customer
 "You have signed out and will go to our homepage in 5 seconds.","Olete välja loginud ning teid suunatakse 5 sekundi pärast avalehele.",module,Magento_Customer
 "New Customers","Uus klient",module,Magento_Customer
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","Konto loomisel on mitmed eelised: saate kiiremini tellimuse esitada, hallata rohkem kui ühte aadressi, jälgida tellimuse staatust jne.",module,Magento_Customer
-Company,Ettevõte,module,Magento_Customer
-Fax,Faks,module,Magento_Customer
 Gender,Sugu,module,Magento_Customer
 Name,Nimi,module,Magento_Customer
 "Tax/VAT number","KMKR number",module,Magento_Customer
-"Phone Number",Telefon,module,Magento_Customer
-"Class for type ""%1"" was not declared","Tüüp ""%1"" klass ei ole deklareeritud",module,Magento_Deploy
 "Cannot switch into given mode ""%1""","Antud moodi ei saa minna ""%1""",module,Magento_Deploy
 "Format for IDE '%1' is not supported","'%1' IDE vormingut ei toetata",module,Magento_Developer
 "Server side less compilation","Serveri poolel vähem kompileerimist",module,Magento_Developer
@@ -2422,6 +2410,7 @@ Closed,Suletud,module,Magento_Sales
 "Suspected Fraud","Pettuse kahtlus",module,Magento_Sales
 "Payment Review","Makse ülevaade",module,Magento_Sales
 New,Uus,module,Magento_Sales
+"Something went wrong","Midagi läks valesti",module,Magento_Sales
 View,Kuva,module,Magento_Sales
 Customer,Klient,module,Magento_Sales
 Notified,Teavitatud,module,Magento_Sales
@@ -2947,16 +2936,26 @@ Cancel,Tühista,module,Magento_Checkout
 "You can create an account after checkout.","Saate luua konto peale tellimuse vormistamist.",module,Magento_Checkout
 "You already have an account with us. Sign in or continue as guest.","Teil on juba konto olemas. Logi sisse või jätka külalisena.",module,Magento_Checkout
 Login,Sisene,module,Magento_Checkout
+Close,Sulge,module,Magento_Checkout
+"Item in Cart","Toode ostukorvis",module,Magento_Checkout
+"Items in Cart","Toodet ostukorvis",module,Magento_Checkout
+"Go to Checkout",Tellima,module,Magento_Checkout
+"View and edit cart","Vaata ja muuda korvi",module,Magento_Checkout
 "See Details","Vaata detaile",module,Magento_Checkout
 Remove,Eemalda,module,Magento_Checkout
 "Cart Subtotal","Ostukorvi vahesumma",module,Magento_Checkout
 "You can track your order status by creating an account.","Luues konto saate jälgida oma tellimuse staatust.",module,Magento_Checkout
 "Ship Here","Saada siia",module,Magento_Checkout
 "Ship To:",Saaja:,module,Magento_Checkout
+"Shipping Address",Tarneaadress,module,Magento_Checkout
+"New Address","Uus aadress",module,Magento_Checkout
+"Shipping Methods",Tarneviisid,module,Magento_Checkout
+Next,Järgmine,module,Magento_Checkout
 "Order Summary","Tellimuse Kokkuvõte",module,Magento_Checkout
 "View and Edit Cart","Vaata ja Muuda Korvi",module,Magento_Checkout
 "View Details","Vaata üksikasju",module,Magento_Checkout
 "Contact Form","Kontakti vorm",module,Magento_Contact
+"Phone Number: %telephone","Telefoninumber: %telephone",module,Magento_Contact
 "Welcome to %store_name","Tere tulemast poodi %store_name",module,Magento_Customer
 "Welcome to %store_name.","Tere tulemast poodi %store_name.",module,Magento_Customer
 Email:,E-post:,module,Magento_Customer
@@ -3038,7 +3037,6 @@ Footer,Jalus,theme,frontend/Magento/luma
 "Your shipping confirmation is below. Thank you again for your business.","Täname teid tellimuse eest. Alltoodult on teie tarneinfo.",theme,frontend/Magento/luma
 "Your Shipment #%shipment_id for Order #%order_id","Teie saadetise #%shipment_id tellimusele #%order_id",theme,frontend/Magento/luma
 "Update to your %store_name shipment","Uuendatud info teie %store_name tellimusele",theme,frontend/Magento/luma
-"Sorry, but something went wrong. Please contact the seller.","Vabandage, midagi läks valesti. Palun võtke müüjaga ühnudst.",module,Magento_Authorizenet
 "We could not detect a size.","Ei suuda tuvastada suurust.",module,Magento_Backend
 "This payment is not available","Makse pole saadaval",module,Magento_Braintree
 MM,KK,module,Magento_Braintree
@@ -3049,6 +3047,7 @@ YY,AA,module,Magento_Braintree
 Submit,Saada,module,Magento_Catalog
 "We don't recognize or support this file extension type.","Me ei tunne või toeta seda tüüpi faililaiendit.",module,Magento_Catalog
 "Configure Product","Konfigureeri toodet",module,Magento_Catalog
+"This value does not follow the specified format (for example, 200x300).","Formaadi viga. Ettenähtud vormi näide: 200 x 300.",module,Magento_Catalog
 "Please select items.","Valige üksused.",module,Magento_Catalog
 "Choose existing category.","Vali olemasolev kategooria.",module,Magento_Catalog
 "Image Detail","Pilt üksikasjalikult",module,Magento_Catalog
@@ -3057,10 +3056,8 @@ Added,Lisatud,module,Magento_Catalog
 "unselect all","tühista kõik",module,Magento_Catalog
 Close,Sulge,module,Magento_CheckoutAgreements
 "Provided Zip/Postal Code seems to be invalid.","Postiindeks ei ole korrektne.",module,Magento_Checkout
-"New Address","Uus aadress",module,Magento_Checkout
 Shipping,Tarne,module,Magento_Checkout
 "Save Address","Salvesta aadress",module,Magento_Checkout
-"Please specify a shipping method.","Vali tarneviis.",module,Magento_Checkout
 "New Product Review","Uue toote arvustus",module,Magento_ConfigurableProduct
 "Enable Product","Luba toode",module,Magento_ConfigurableProduct
 "Incl. Tax","Koos maksuga",module,Magento_ConfigurableProduct
@@ -3084,10 +3081,8 @@ Delete,Kustuta,module,Magento_ProductVideo
 "Search by keyword","Otsi märskõnaga",module,Magento_Ui
 "Please enter a valid credit card number.","Sisesta korrektne krediitkaardi number.",module,Magento_Ui
 "Please enter a valid email address (Ex: johndoe@domain.com).","Palun sisestage kehtiv e-posti aadress (Nt: tiit@domeen.ee).",module,Magento_Ui
-"Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.","Minimaalne pikkus peab olema vähemalt %1 sümbolit. Tühikuid ignoreeritakse.",module,Magento_Ui
 "Please enter a valid date.","Sisesta kuupäev.",module,Magento_Ui
 "Please enter a valid zip code.","Sisesta korrektne postiindeks.",module,Magento_Ui
-"Please enter valid email addresses, separated by commas. For example, johndoe@domain.com, johnsmith@domain.com.","Palun sisestage kehtivad e-posti aadressid komadega. Näiteks johndoe@domain.com, johnsmith@domain.com.",module,Magento_Ui
 "This is a required field.","See on kohustuslik väli.",module,Magento_Ui
 Close,Sulge,module,Magento_Ui
 "Show Toolbar","Kuva tööriistariba",module,Magento_AdminNotification
@@ -3131,6 +3126,7 @@ Elements,Elemendid,module,Magento_Backend
 Design,Kujundus,module,Magento_Backend
 Schedule,Ajakava,module,Magento_Backend
 Settings,Seaded,module,Magento_Backend
+"All Stores","Kõik poed",module,Magento_Backend
 Attributes,Atribuudid,module,Magento_Backend
 "Other Settings","Muud seaded",module,Magento_Backend
 "Data Transfer","Andmete ülekanne",module,Magento_Backend
@@ -3258,19 +3254,19 @@ Tags,Märksõnad,module,Magento_Backend
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading"">Viga 404</h1><p>Lehekülge ei leitud,</p>",module,Magento_Backend
 "Community Edition","Community versioon",module,Magento_Backend
 "Default Theme","Vaikimisi teema",module,Magento_Backend
-"If no value is specified, the system default is used. The system default may be modified by third party extensions.","Kui ühtegi väärtust pole määratud, kasutatakse vaikimisi sätteid. Süsteemi vaikesätteid saab muuta kolmanda osapoole laiendustega.",module,Magento_Backend
 "Applied Theme","Rakendatud teema",module,Magento_Backend
+"If no value is specified, the system default is used. The system default may be modified by third party extensions.","Kui ühtegi väärtust pole määratud, kasutatakse vaikimisi sätteid. Süsteemi vaikesätteid saab muuta kolmanda osapoole laiendustega.",module,Magento_Backend
 "Design Rule","Disaini reegel",module,Magento_Backend
 "User Agent Rules","Kasutaja Agendi reeglid",module,Magento_Backend
 Pagination,Leheküljejaotus,module,Magento_Backend
-"How many links to display at once.","Mitu linke korraga kuvatakse.",module,Magento_Backend
 "Pagination Frame","Lehekülgjaotuse raam",module,Magento_Backend
-"If current frame position does not cover utmost pages, it renders the link to current position plus/minus this value.","Kui praegune kaadri asend ei kata äärmiseid leheti, muudab see lingi asukohta pluss/miinus see väärtus.",module,Magento_Backend
+"How many links to display at once.","Mitu linke korraga kuvatakse.",module,Magento_Backend
 "Pagination Frame Skip","Lehekülgjaotuse raami vahe",module,Magento_Backend
-"Alternative text for the previous pages link in the pagination menu. If empty, the default arrow image is used.","Alternatiivtekst eelnevatele lehtede lingile lehejaotuse menüü jaoks. Kui tühi siis kasutatakse vaikesätetest tulenevat pilti.",module,Magento_Backend
+"If current frame position does not cover utmost pages, it renders the link to current position plus/minus this value.","Kui praegune kaadri asend ei kata äärmiseid leheti, muudab see lingi asukohta pluss/miinus see väärtus.",module,Magento_Backend
 "Anchor Text for Previous","Ankur tekst eelmisele",module,Magento_Backend
-"Alternative text for the next pages link in the pagination menu. If empty, default arrow image is used.","Alternatiivtekst järgmistele lehtede lingile lehejaotuse menüü jaoks. Kui tühi siis kasutatakse vaikesätetest tulenevat pilti.",module,Magento_Backend
+"Alternative text for the previous pages link in the pagination menu. If empty, the default arrow image is used.","Alternatiivtekst eelnevatele lehtede lingile lehejaotuse menüü jaoks. Kui tühi siis kasutatakse vaikesätetest tulenevat pilti.",module,Magento_Backend
 "Anchor Text for Next","Ankur tekst järgmisele",module,Magento_Backend
+"Alternative text for the next pages link in the pagination menu. If empty, default arrow image is used.","Alternatiivtekst järgmistele lehtede lingile lehejaotuse menüü jaoks. Kui tühi siis kasutatakse vaikesätetest tulenevat pilti.",module,Magento_Backend
 "Theme Name","Teema nimi",module,Magento_Backend
 Rollback,Taastamine,module,Magento_Backup
 "Scheduled Backup Settings","Planeeritud varukoopia seaded",module,Magento_Backup
@@ -3371,17 +3367,11 @@ Inactive,Mitteaktiivne,module,Magento_CatalogRule
 "Web Site",Veebisait,module,Magento_CatalogRule
 Back,Tagasi,module,Magento_CatalogRule
 "Rule Information",Reegliteave,module,Magento_CatalogRule
-"Rule Name","Reegli nimi",module,Magento_CatalogRule
-Description,Kirjeldus,module,Magento_CatalogRule
-"Customer Groups",Kliendigrupid,module,Magento_CatalogRule
-Priority,Prioriteet,module,Magento_CatalogRule
 Actions,Toimingud,module,Magento_CatalogRule
-Apply,Rakenda,module,Magento_CatalogRule
-"Discount Amount","Allahindluse määr",module,Magento_CatalogRule
 Yes,Jah,module,Magento_CatalogRule
 No,Ei,module,Magento_CatalogRule
-"Catalog Search",Kataloogiotsing,module,Magento_CatalogSearch
 "Popular Search Terms","Populaarsemad otsisõnad",module,Magento_CatalogSearch
+"Catalog Search",Kataloogiotsing,module,Magento_CatalogSearch
 "Minimal Query Length","Lühim päringu pikkus",module,Magento_CatalogSearch
 "Maximum Query Length","Maksimaalne otsingu pikkus",module,Magento_CatalogSearch
 "Rebuild Catalog product fulltext search index","Rekonstrueeri kataloogi toote täisteksti otsingu indeksid",module,Magento_CatalogSearch
@@ -3391,10 +3381,6 @@ No,Ei,module,Magento_CatalogRule
 "Number of Products per Page","Tooteid lehe kohta",module,Magento_CatalogWidget
 Conditions,Tingimused,module,Magento_CatalogWidget
 Inventory,Ladu,module,Magento_Catalog
-Small,Väike,module,Magento_Catalog
-Main,Peamine,module,Magento_Catalog
-"Custom image","Kohandatud pilt",module,Magento_Catalog
-"Recently Viewed/Compared Products","Viimati vaadatud / võrreldud tooted",module,Magento_Catalog
 Storefront,Poevaade,module,Magento_Catalog
 "List Mode","Loetelu režiim",module,Magento_Catalog
 Comma-separated.,"Komaga eraldatud.",module,Magento_Catalog
@@ -3406,8 +3392,6 @@ Comma-separated.,"Komaga eraldatud.",module,Magento_Catalog
 "Search Engine Optimization","Otsingumootori optimiseerimine",module,Magento_Catalog
 "Use JavaScript Calendar","Kasuta JavaScript kalendrit",module,Magento_Catalog
 "Time Format",Kellaajavorming,module,Magento_Catalog
-"Product Info Column","Toote Info veerg",module,Magento_Catalog
-"Block after Info Column","Peale info veeru blokki",module,Magento_Catalog
 "Product Flat Data","Toodete lameandmed",module,Magento_Catalog
 "Reorganize EAV product structure to flat structure","Kohandab EAV tooteandmed lamedaks tabeliks",module,Magento_Catalog
 "Category Flat Data","Kategooria lameandmed",module,Magento_Catalog
@@ -3427,20 +3411,20 @@ Template,Mall,module,Magento_Catalog
 "Select Product...","Vali toode...",module,Magento_Catalog
 "Select Category...","Vali kategooria...",module,Magento_Catalog
 "If empty, we'll use the category name here.","Kui on tühi, kasutame siin kategooria nime.",module,Magento_Catalog
-Image,Pilt,module,Magento_Catalog
-"Recently Compared Products","Viimati võrreldud tooted",module,Magento_Catalog
 "Enable Category","Luba kategooria",module,Magento_Catalog
 "Include in Menu","Lisa menüüsse",module,Magento_Catalog
 Content,Sisu,module,Magento_Catalog
 "Category Image","Kategooria pilt",module,Magento_Catalog
 "Add CMS Block","Lisa CMS blokk",module,Magento_Catalog
-"Default Product Listing Sort By","Vaikimisi toodete nimekirja sorteerimine",module,Magento_Catalog
+"Sort Products By","Sorteeri tooteid",module,Magento_Catalog
 Design,Kujundus,module,Magento_Catalog
 Theme,Mall,module,Magento_Catalog
 Layout,Paigutus,module,Magento_Catalog
 "Layout Update XML","Paigutuse uuenduse XML",module,Magento_Catalog
+Image,Pilt,module,Magento_Catalog
 "Image Opacity","Pildi läbipaistvus",module,Magento_Catalog
 "Image Position","Pildi asukoht",module,Magento_Catalog
+Small,Väike,module,Magento_Catalog
 "Attribute Properties","Atribuudi sätted",module,Magento_Catalog
 "Attribute Label","Atribuudi silt",module,Magento_Catalog
 Values,Väärtused,module,Magento_Catalog
@@ -3453,10 +3437,6 @@ Disable,Keela,module,Magento_Catalog
 "Update attributes","Uuenda atribuute",module,Magento_Catalog
 Overview,Ülevaade,module,Magento_Catalog
 Details,Üksikasjad,module,Magento_Catalog
-"Add To Cart","Lisa ostukorvi",module,Magento_Catalog
-"Add To Compare","Lisa võrdlusesse",module,Magento_Catalog
-"Learn more",Lisateave,module,Magento_Catalog
-"Recently Viewed","Viimati vaadatud",module,Magento_Catalog
 "Terms & Conditions","Nõuded ja tingimused",module,Magento_CheckoutAgreements
 "Enable Terms and Conditions","Luba nõuded ja tingimused",module,Magento_CheckoutAgreements
 "Checkout Options","Tellimuse vormistamiste valikud",module,Magento_Checkout
@@ -3465,7 +3445,6 @@ Details,Üksikasjad,module,Magento_Catalog
 "After Adding a Product Redirect to Shopping Cart","Pärast toote lisamist suuna ostukorvi",module,Magento_Checkout
 Summary,Kokkuvõte,module,Magento_Checkout
 "Order Total","Tellimus kokku",module,Magento_Checkout
-"Shipping Address",Tarneaadress,module,Magento_Checkout
 Payment,Makse,module,Magento_Checkout
 "Not yet calculated","Pole veel arvutatud",module,Magento_Checkout
 "We received your order!","Teie tellimus on vastuvõetud!",module,Magento_Checkout
@@ -3477,7 +3456,6 @@ Block,Plokk,module,Magento_Cms
 "General Information",Üldinfo,module,Magento_Cms
 "Enable Block","Luba plokk",module,Magento_Cms
 "Block Title","Ploki pealkiri",module,Magento_Cms
-"Are you sure you want to delete selected items?","Olete kindel et soovite kustutada valikud kirjed?",module,Magento_Cms
 "Delete items","Kustuta üksused",module,Magento_Cms
 "Page Information",Leheseaded,module,Magento_Cms
 "Enable Page","Luba leht",module,Magento_Cms
@@ -3560,19 +3538,17 @@ Contacts,Kontaktid,module,Magento_Contact
 "Show Date of Birth","Näita sünnikuupäeva",module,Magento_Customer
 "Show Tax/VAT Number","Näita KMKR numbrit",module,Magento_Customer
 "Show Gender","Näita sugu",module,Magento_Customer
-"Show Telephone","Näita telefoni",module,Magento_Customer
-"Show Company","Näita ettevõtet",module,Magento_Customer
-"Show Fax","Näita faksi",module,Magento_Customer
 "Redirect Customer to Account Dashboard after Logging in","Suuna kliendid töölauale peale sisse logimist",module,Magento_Customer
 "Online Customers Options","Online klientide valikud",module,Magento_Customer
 "Customer Notification","Kliendi teavitamine",module,Magento_Customer
-"Assign a Customer Group","Määra kliendigruppi",module,Magento_Customer
 Group,Grupp,module,Magento_Customer
 "Add New Customer","Lisa uus klient",module,Magento_Customer
 "Are you sure to delete selected customers?","Olete kindel et soovite kustutada valitud kliendid?",module,Magento_Customer
 "Subscribe to Newsletter","Telli uudiskiri",module,Magento_Customer
-"Are you sure to unsubscribe selected customers from newsletter?","Olete kindel et soovite eemaldada valitud kliendid uudiskirja tellimusest?",module,Magento_Customer
 "Unsubscribe from Newsletter","Tühista uudiskirja tellimus",module,Magento_Customer
+"Are you sure to unsubscribe selected customers from newsletter?","Olete kindel et soovite eemaldada valitud kliendid uudiskirja tellimusest?",module,Magento_Customer
+"Assign a Customer Group","Määra kliendigruppi",module,Magento_Customer
+"Are you sure to assign selected customers to new group?","Olete kindel et soovite määrata valitud kliendid uude gruppi?",module,Magento_Customer
 ZIP,Postiindeks,module,Magento_Customer
 "Customer Since","Klient alates",module,Magento_Customer
 "Tax VAT Number","KMKR number",module,Magento_Customer
@@ -3697,6 +3673,7 @@ Marketing,Turundus,module,Magento_Reports
 "Search Terms",Otsisõnad,module,Magento_Reports
 New,Uus,module,Magento_Reports
 Dashboard,Töölaud,module,Magento_Reports
+"Recently Compared Products","Viimati võrreldud tooted",module,Magento_Reports
 Average,Keskmine,module,Magento_Reports
 "The report displays the top 5 most viewed products for each interval.","Raportis kuvatakse iga vahemiku jaoks top 5 enim vaadatud tootdet.",module,Magento_Reports
 Action,Toiming,module,Magento_Reports
@@ -3811,14 +3788,14 @@ Rate,Määr,module,Magento_Tax
 "Order Total Incl. Tax","Kokku maksudega",module,Magento_Tax
 "Order Total","Tellimus kokku",module,Magento_Tax
 "1 column","1 veerg",module,Magento_Theme
+"Default Description",Vaikekirjeldus,module,Magento_Theme
 "Default welcome msg!","Vaikimisi tervitus!",module,Magento_Theme
+"Copyright © 2017 Magento, Inc. All rights reserved.","Copyright © 2017 Magento, Inc Kõik õigused kaitstud.",module,Magento_Theme
 "HTML Head","HTML päis",module,Magento_Theme
 "Favicon Icon","Faviconi pilt",module,Magento_Theme
 "Display Demo Store Notice","Kuva testpoe teadet",module,Magento_Theme
 Header,Päis,module,Magento_Theme
 "Logo Image","Logo pilt",module,Magento_Theme
-"Logo Attribute Width","Logo atribuudi laius",module,Magento_Theme
-"Logo Attribute Height","Logo atribuudi kõrgus",module,Magento_Theme
 "Welcome Text",Tervitussõnum,module,Magento_Theme
 Footer,Jalus,module,Magento_Theme
 "Miscellaneous HTML","Täiendav HTML",module,Magento_Theme
@@ -3878,5 +3855,5 @@ Action,Toiming,module,Magento_Wishlist
 Configure,Seadista,module,Magento_Wishlist
 Delete,Kustuta,module,Magento_Wishlist
 "Account Dashboard","Konto töölaud",theme,frontend/Magento/luma
-"Address Book",Aadressiraamat,theme,frontend/Magento/luma
 "Account Information","Konto andmed",theme,frontend/Magento/luma
+"Address Book",Aadressiraamat,theme,frontend/Magento/luma
