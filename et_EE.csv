@@ -3567,6 +3567,7 @@ Contacts,Kontaktid,module,Magento_Contact
 "Online Customers Options","Online klientide valikud",module,Magento_Customer
 "Customer Notification","Kliendi teavitamine",module,Magento_Customer
 "Assign a Customer Group","Määra kliendigruppi",module,Magento_Customer
+"Are you sure to assign selected customers to new group?","Olete kindel et soovite määrata valitud kliendid uude gruppi?",module,Magento_Customer
 Group,Grupp,module,Magento_Customer
 "Add New Customer","Lisa uus klient",module,Magento_Customer
 "Are you sure to delete selected customers?","Olete kindel et soovite kustutada valitud kliendid?",module,Magento_Customer
