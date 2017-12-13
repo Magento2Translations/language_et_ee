@@ -1493,6 +1493,7 @@ Company,Ettevõte,module,Magento_Customer
 Fax,Faks,module,Magento_Customer
 Address,Aadress,module,Magento_Customer
 "Street Address","Tänav, maja",module,Magento_Customer
+"VAT Number","KMKR number",module,Magento_Customer
 City,Linn,module,Magento_Customer
 State/Province,Maakond,module,Magento_Customer
 "Please select a region, state or province.","Valige piirkond, maakond või vald.",module,Magento_Customer
@@ -1770,6 +1771,7 @@ Total,Kokku,module,Magento_Multishipping
 "Please select shipping methods for all addresses.","Palun valige tarneviis kõikidele aadressitele.",module,Magento_Multishipping
 "Please specify shipping methods for all addresses.","Palun valige tarneviis kõikidele aadressitele.",module,Magento_Multishipping
 "Billing Information",Arveldusandmed,module,Magento_Multishipping
+"Place Order","Esita tellimus",module,Magento_Multishipping
 "Default Billing","Vaikimisi arveldus",module,Magento_Multishipping
 "Default Shipping","Vaikimisi tarne",module,Magento_Multishipping
 "Add New Address","Lisa uus aadress",module,Magento_Multishipping
@@ -1791,11 +1793,13 @@ Change,Vaheta,module,Magento_Multishipping
 "Shipping Method",Tarneviis,module,Magento_Multishipping
 "Incl. Tax","Koos maksuga",module,Magento_Multishipping
 "Excl. Tax","Ilma maksuta",module,Magento_Multishipping
+"Order Review","Telli ülevaade",module,Magento_Multishipping
 Edit,Muuda,module,Magento_Multishipping
 Price,Hind,module,Magento_Multishipping
 Subtotal,Vahesumma,module,Magento_Multishipping
 "Grand Total:","Kõik kokku:",module,Magento_Multishipping
 "Back to Select Addresses","Tagasi aadressi valimisse",module,Magento_Multishipping
+"Thank you for your purchase!","Täname ostu eest!",module,Magento_Multishipping
 "Thanks for your order. We'll email you order details and tracking information.","Täname tellimuse eest. Me saadame teile e-posti tellimuse detailidega ning jälgimisinfoga.",module,Magento_Multishipping
 "Continue Shopping","Jätka ostlemist",module,Magento_Multishipping
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
@@ -1930,6 +1934,7 @@ View,Kuva,module,Magento_Paypal
 Edit,Muuda,module,Magento_Paypal
 "Items in Your Shopping Cart","toodet ostukorvis",module,Magento_Paypal
 "Edit Shopping Cart","Muuda ostukorvi",module,Magento_Paypal
+"Place Order","Esita tellimus",module,Magento_Paypal
 Price,Hind,module,Magento_Paypal
 Qty,Kogus,module,Magento_Paypal
 Subtotal,Vahesumma,module,Magento_Paypal
@@ -1955,7 +1960,7 @@ Role,Roll,module,Magento_ProductVideo
 "New Video","Uus Video",module,Magento_ProductVideo
 "Delete image","Kustuta pilt",module,Magento_ProductVideo
 "Alt Text","Alt tekst",module,Magento_ProductVideo
-"Unable to save address. Please, check input data.","Ei saa salvestada aadressi. Palun kontrollige sisestatud andmed.",module,Magento_Quote
+"Unable to save address. Please, check input data.","Aadressi salvestamine ebaõnnestus. Palun kontrollige sisestetud andmeid.",module,Magento_Quote
 "Could not apply coupon code","Kupongi koodi ei saa rakendada",module,Magento_Quote
 "Could not delete coupon code","Kupongi koodi ei saanud kustutada",module,Magento_Quote
 "Grand Total","Kõik kokku",module,Magento_Quote
@@ -3204,7 +3209,10 @@ Details,Üksikasjad,module,Magento_Catalog
 "Checkout Options","Tellimuse vormistamiste valikud",module,Magento_Checkout
 "Enable Onepage Checkout","Luba ühe lehe tellimuse vormistamine",module,Magento_Checkout
 "Allow Guest Checkout","Luba ostu vormistamist külalisena",module,Magento_Checkout
+"Quote Lifetime (days)","Pakkumise kehtivus (päevades)",module,Magento_Checkout
 "After Adding a Product Redirect to Shopping Cart","Pärast toote lisamist suuna ostukorvi",module,Magento_Checkout
+"My Cart Link","Minu ostukorv",module,Magento_Checkout
+"Display Cart Summary","Näita ostukorvi sisu",module,Magento_Checkout
 Shipping,Tarne,module,Magento_Checkout
 "Order Total","Tellimus kokku",module,Magento_Checkout
 "Shipping Address",Tarneaadress,module,Magento_Checkout
@@ -3215,6 +3223,7 @@ Payment,Makse,module,Magento_Checkout
 "Cart Subtotal","Ostukorvi vahesumma",module,Magento_Checkout
 "Not yet calculated","Pole veel arvutatud",module,Magento_Checkout
 "We received your order!","Teie tellimus on vastuvõetud!",module,Magento_Checkout
+"Thank you for your purchase!","Täname ostu eest!",module,Magento_Checkout
 "CMS Home Page","Avalehe CMS",module,Magento_Cms
 "CMS Static Block","CMS staatiline plokk",module,Magento_Cms
 "Contents of a Static Block","Staatilise ploki sisu",module,Magento_Cms
