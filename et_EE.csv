@@ -1519,6 +1519,7 @@ Company,Ettevõte,module,Magento_Customer
 Fax,Faks,module,Magento_Customer
 Address,Aadress,module,Magento_Customer
 "Street Address","Tänav, maja",module,Magento_Customer
+"VAT Number","KMKR number",module,Magento_Customer
 City,Linn,module,Magento_Customer
 State/Province,Maakond,module,Magento_Customer
 "Please select a region, state or province.","Valige piirkond, maakond või vald.",module,Magento_Customer
@@ -1811,6 +1812,7 @@ Total,Kokku,module,Magento_Multishipping
 "Please select shipping methods for all addresses.","Palun valige tarneviis kõikidele aadressitele.",module,Magento_Multishipping
 "Please specify shipping methods for all addresses.","Palun valige tarneviis kõikidele aadressitele.",module,Magento_Multishipping
 "Billing Information",Arveldusandmed,module,Magento_Multishipping
+"Place Order","Esita tellimus",module,Magento_Multishipping
 "Default Billing","Vaikimisi arveldus",module,Magento_Multishipping
 "Default Shipping","Vaikimisi tarne",module,Magento_Multishipping
 "Add New Address","Lisa uus aadress",module,Magento_Multishipping
@@ -1832,11 +1834,13 @@ Change,Vaheta,module,Magento_Multishipping
 "Shipping Method",Tarneviis,module,Magento_Multishipping
 "Incl. Tax","Koos maksuga",module,Magento_Multishipping
 "Excl. Tax","Ilma maksuta",module,Magento_Multishipping
+"Order Review","Telli ülevaade",module,Magento_Multishipping
 Edit,Muuda,module,Magento_Multishipping
 Price,Hind,module,Magento_Multishipping
 Subtotal,Vahesumma,module,Magento_Multishipping
 "Grand Total:","Kõik kokku:",module,Magento_Multishipping
 "Back to Select Addresses","Tagasi aadressi valimisse",module,Magento_Multishipping
+"Thank you for your purchase!","Täname ostu eest!",module,Magento_Multishipping
 "Thanks for your order. We'll email you order details and tracking information.","Täname tellimuse eest. Me saadame teile e-posti tellimuse detailidega ning jälgimisinfoga.",module,Magento_Multishipping
 "Continue Shopping","Jätka ostlemist",module,Magento_Multishipping
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
@@ -1970,6 +1974,7 @@ View,Kuva,module,Magento_Paypal
 Edit,Muuda,module,Magento_Paypal
 "Items in Your Shopping Cart","toodet ostukorvis",module,Magento_Paypal
 "Edit Shopping Cart","Muuda ostukorvi",module,Magento_Paypal
+"Place Order","Esita tellimus",module,Magento_Paypal
 Price,Hind,module,Magento_Paypal
 Qty,Kogus,module,Magento_Paypal
 Subtotal,Vahesumma,module,Magento_Paypal
@@ -2937,8 +2942,12 @@ items,toodet,module,Magento_Checkout
 Remove,Eemalda,module,Magento_Checkout
 "Cart Subtotal","Ostukorvi vahesumma",module,Magento_Checkout
 "You can track your order status by creating an account.","Luues konto saate jälgida oma tellimuse staatust.",module,Magento_Checkout
+"Place Order","Esita tellimus",module,Magento_Checkout
+"Forgot an Item?","Unustasid midagi?",module,Magento_Checkout
+"Edit Your Cart","Muuda ostukorvi sisu",module,Magento_Checkout
 "Ship Here","Saada siia",module,Magento_Checkout
 "Ship To:",Saaja:,module,Magento_Checkout
+edit,muuda,module,Magento_Checkout
 "Shipping Address",Tarneaadress,module,Magento_Checkout
 "New Address","Uus aadress",module,Magento_Checkout
 "Shipping Methods",Tarneviisid,module,Magento_Checkout
@@ -2970,6 +2979,7 @@ Delete,Kustuta,module,Magento_GiftMessage
 "You have been successfully subscribed to our newsletter.","Olete liitunud uudiskirjaga.",module,Magento_Newsletter
 "Newsletter unsubscription success","Uudiskirjast lahkumine õnnestus",module,Magento_Newsletter
 "You have been unsubscribed from the newsletter.","Uudiskirjaga liitumine tühistatud.",module,Magento_Newsletter
+"Place Order","Esita tellimus",module,Magento_OfflinePayments
 "Place Order","Esita telimus",module,Magento_Payment
 "Forgot an Item?","Unustasid toote?",module,Magento_Payment
 "Edit Your Cart","Muuda ostukorvi",module,Magento_Payment
@@ -3048,6 +3058,7 @@ Added,Lisatud,module,Magento_Catalog
 "unselect all","tühista kõik",module,Magento_Catalog
 Close,Sulge,module,Magento_CheckoutAgreements
 "Provided Zip/Postal Code seems to be invalid.","Postiindeks ei ole korrektne.",module,Magento_Checkout
+"Review & Payments","Ülevaade ja maksmine",module,Magento_Checkout
 Shipping,Tarne,module,Magento_Checkout
 "Save Address","Salvesta aadress",module,Magento_Checkout
 "New Product Review","Uue toote arvustus",module,Magento_ConfigurableProduct
@@ -3425,12 +3436,16 @@ Details,Üksikasjad,module,Magento_Catalog
 "Checkout Options","Tellimuse vormistamiste valikud",module,Magento_Checkout
 "Enable Onepage Checkout","Luba ühe lehe tellimuse vormistamine",module,Magento_Checkout
 "Allow Guest Checkout","Luba ostu vormistamist külalisena",module,Magento_Checkout
+"Quote Lifetime (days)","Pakkumise kehtivus (päevades)",module,Magento_Checkout
 "After Adding a Product Redirect to Shopping Cart","Pärast toote lisamist suuna ostukorvi",module,Magento_Checkout
+"My Cart Link","Minu ostukorv",module,Magento_Checkout
+"Display Cart Summary","Näita ostukorvi sisu",module,Magento_Checkout
 Summary,Kokkuvõte,module,Magento_Checkout
 "Order Total","Tellimus kokku",module,Magento_Checkout
 Payment,Makse,module,Magento_Checkout
 "Not yet calculated","Pole veel arvutatud",module,Magento_Checkout
 "We received your order!","Teie tellimus on vastuvõetud!",module,Magento_Checkout
+"Thank you for your purchase!","Täname ostu eest!",module,Magento_Checkout
 "CMS Home Page","Avalehe CMS",module,Magento_Cms
 "CMS Static Block","CMS staatiline plokk",module,Magento_Cms
 "Contents of a Static Block","Staatilise ploki sisu",module,Magento_Cms
