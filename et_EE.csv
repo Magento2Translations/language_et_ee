@@ -295,9 +295,6 @@ YTD,"Aasta algusest",module,Magento_Backend
 "Admin session lifetime must be greater than or equal to 60 seconds","Admin seansi elu peab olema suurem või võrdne 60 sekundit (minut)",module,Magento_Backend
 Order,Tellimus,module,Magento_Backend
 "Order #%1","Tellimus #%1",module,Magento_Backend
-"Access denied","Ligipääs keelatud",module,Magento_Backend
-"Please try to sign out and sign in again.","Proovige logida välja ja uuesti sisse.",module,Magento_Backend
-"If you continue to receive this message, please contact the store owner.","Kui te jätkuvalt saate seda teadet siis palun võtke ühendust poe omanikuga.",module,Magento_Backend
 "You need more permissions to access this.","Vajate rohkem õiguseid, et seda üksust kasutada.",module,Magento_Backend
 "Welcome, please sign in","Tere, palun logi sisse",module,Magento_Backend
 Username,Kasutajatunnus,module,Magento_Backend
