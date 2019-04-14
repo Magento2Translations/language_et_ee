@@ -27,6 +27,7 @@ notice,teavitus,module,Magento_AdminNotification
 "Wrong message type","Vale sõnumi tüüp",module,Magento_AdminNotification
 "Wrong notification ID specified.","Valisite vale teate ID.",module,Magento_AdminNotification
 "{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","{{base_url}} kasutamine baasURL-i / turvalise baasURL-i defineerimiseks avatud poes ei ole soovitatav. Sestap oleks mõistlik muuta väärtus Magento <a href=""%1>seadetest</a> millekski muuks.",module,Magento_AdminNotification
+"One or more of the Cache Types are invalidated: %1. ","Vähemalt üks vahemälu tüüpidest on kehtetu: %1. ",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Palun minge <a href=""%1""> Vahemälu haldamisse</a> ja värskenda vahemälu tüübid.",module,Magento_AdminNotification
 "We were unable to synchronize one or more media files. Please refer to the log file for details.","Me ei saanud üht või mitut meedafaili sünkroniseerida. Vaadake üksikasju logifailist.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","Meedia hoiukohta sünkroonimine on lõpule viidud.",module,Magento_AdminNotification
@@ -37,6 +38,7 @@ notice,teavitus,module,Magento_AdminNotification
 "System messages",Süsteemisõnumid,module,Magento_AdminNotification
 Close,Sulge,module,Magento_AdminNotification
 "See All (","Vaata kõiki (",module,Magento_AdminNotification
+" unread)"," lugemata)",module,Magento_AdminNotification
 "Please correct the data sent.","Palun korrigeerige saadetud andmeid.",module,Magento_AdvancedPricingImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Olemi tüübi mudel peab olema näiteks """" \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_AdvancedPricingImportExport
 "There are no product types available for export","Ekspordiks vajalikke tootetüüpe ei ole",module,Magento_AdvancedPricingImportExport
@@ -79,6 +81,7 @@ void,tühine,module,Magento_Authorizenet
 "Credit Card Number","Krediitkaardi number",module,Magento_Authorizenet
 "Expiration Date",Aegumiskuupäev,module,Magento_Authorizenet
 "Card Verification Number","Kaardi turvakood",module,Magento_Authorizenet
+"Fraud Detection ","Pettuse tuvastamine ",module,Magento_Authorizenet
 "FDS Filter Action","FDS Filtri tegevus",module,Magento_Authorizenet
 "AVS Response","AVS vastus",module,Magento_Authorizenet
 "Card Code Response","Kaardi koodi vastus",module,Magento_Authorizenet
@@ -274,6 +277,7 @@ System,Süsteem,module,Magento_Backend
 "The store does not exist","Poodi ei leitud",module,Magento_Backend
 "Store view doesn't exist","Poevaadet ei ole olemas",module,Magento_Backend
 "Before modifying the store view code please make sure it is not used in index.php.","Enne poevaate koodi muutmist veenduge, et seda ei ole kasutatud index.php-s.",module,Magento_Backend
+"New ","Uus ",module,Magento_Backend
 "You saved the website.","Salvestasite veebilehe.",module,Magento_Backend
 "An inactive store view cannot be saved as default store view","Passiivset poevaadet ei saa vaikevaateks seadistada",module,Magento_Backend
 "You saved the store.","Pood salvestatud.",module,Magento_Backend
@@ -1022,6 +1026,7 @@ Role,Roll,module,Magento_Catalog
 "Unselect Visible","Tühista nähtavad",module,Magento_Catalog
 "Special Price",Soodushind,module,Magento_Catalog
 "Regular Price",Tavahind,module,Magento_Catalog
+"Buy %1 for: ","Osta %1: ",module,Magento_Catalog
 "Shop By",Sorteeri,module,Magento_Catalog
 "Shopping Options","Ostlemise Valikud",module,Magento_Catalog
 "Compare Products","Võrdle tooteid",module,Magento_Catalog
@@ -1121,6 +1126,8 @@ Checkout,"Tellimuse vormistamine",module,Magento_Checkout
 "Display item quantities","Näita kaubakoguseid",module,Magento_Checkout
 "Shipping address is not set","Kohaletoimetamise aadress on määramata",module,Magento_Checkout
 "Shipping method is not applicable for empty cart","Tarneviisi ei saa kasutada tühja ostukorviga",module,Magento_Checkout
+" item"," toode",module,Magento_Checkout
+" items"," toodet",module,Magento_Checkout
 "Invalid data","Valed andmed",module,Magento_Checkout
 "The customer address is not valid.","Kliendi aadress ei ole õige.",module,Magento_Checkout
 "Invalid shipping method","Vale tarneviis",module,Magento_Checkout
@@ -2376,6 +2383,8 @@ Partial,Osaline,module,Magento_Sales
 "Amount: %1.","Summa %1.",module,Magento_Sales
 "Transaction ID: ""%1""","Kande ID: ""%1""",module,Magento_Sales
 Order,Tellimus,module,Magento_Sales
+"Order # ","Tellimus # ",module,Magento_Sales
+"Order Date: ","Tellimuse kuupäev: ",module,Magento_Sales
 "Sold to:",Ostja:,module,Magento_Sales
 "Ship to:",Saaja:,module,Magento_Sales
 "Payment Method:",Makseviis:,module,Magento_Sales
@@ -2387,6 +2396,8 @@ Products,Tooted,module,Magento_Sales
 Qty,Kogus,module,Magento_Sales
 Tax,Maks,module,Magento_Sales
 "Total (inc)","Kokku (maksudega)",module,Magento_Sales
+"Credit Memo # ","Kreeditarve # ",module,Magento_Sales
+"Invoice # ","Arve # ",module,Magento_Sales
 "Excl. Tax","Ilma maksuta",module,Magento_Sales
 "Incl. Tax","Koos maksuga",module,Magento_Sales
 title,pealkiri,module,Magento_Sales
@@ -2491,7 +2502,6 @@ Actions,Toimingud,module,Magento_Sales
 "You have placed no orders.","Teil pole esitatud ühtegi tellimust.",module,Magento_Sales
 "Print Order","Prindi tellimus",module,Magento_Sales
 "Print All Invoices","Trüki kõik arved",module,Magento_Sales
-"Invoice #","Arve #",module,Magento_Sales
 "Print Invoice","Trüki arve",module,Magento_Sales
 Close,Sulge,module,Magento_Sales
 "Shipment #%1","Saadetis #%1",module,Magento_Sales
@@ -2523,6 +2533,7 @@ Store,Pood,module,Magento_Search
 "Number of Uses",Kasutamiskordi,module,Magento_Search
 Marketing,Turundus,module,Magento_Search
 "Edit Search","Muuda otsingut",module,Magento_Search
+"    All Store Views","    Kõik poevaated",module,Magento_Search
 "All Store Views","Kõik poevaated",module,Magento_Search
 Delete,Kustuta,module,Magento_Search
 View/Edit,Vaata/Muuda,module,Magento_Search
@@ -2905,13 +2916,6 @@ Back,Tagasi,module,Magento_Wishlist
 "Remove This Item","Eemalda toode",module,Magento_Wishlist
 "Go to Wish List","Mine soovinimekirja",module,Magento_Wishlist
 "You have no items in your wish list.","Ostukorvis pole tooteid.",module,Magento_Wishlist
-"Now Shopping by","Ostlemise moodus",theme,frontend/Magento/luma
-Previous,Eelmine,theme,frontend/Magento/luma
-Remove,Eemalda,theme,frontend/Magento/luma
-"Remove This Item","Eemalda toode",theme,frontend/Magento/luma
-"Shop By",Vali,theme,frontend/Magento/luma
-"Clear All","Tühjenda kõik",theme,frontend/Magento/luma
-"Shopping Options",Filtrid,theme,frontend/Magento/luma
 "Place Order","Esita telimus",module,Magento_Authorizenet
 "Credit Card Information","Krediitkaardi andmed",module,Magento_Braintree
 "What is this?","Mis see on?",module,Magento_Braintree
@@ -3002,57 +3006,13 @@ Delete,Kustuta,module,Magento_GiftMessage
 "View past orders","Vaadata vanu tellimusi",module,Magento_Theme
 "records found","kirjet leitud",module,Magento_Ui
 "View all Wish List items","Vaata kõiki soovinimekirja tooteid",module,Magento_Wishlist
-"Welcome to %store_name","Tere tulemast %store_name kauplusesse",theme,frontend/Magento/luma
-"Welcome to %store_name.","Tere tulemast %store_name kauplusesse.",theme,frontend/Magento/luma
-"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Meie poodi sisselogimiseks kasutage neid tunnuseid. Sama saate teha ka tellimuse vormistamisel ja/või <a href=""%customer_url""> Minu konto </a> lehel:",theme,frontend/Magento/luma
-Email:,E-post:,theme,frontend/Magento/luma
-Password:,Salasõna:,theme,frontend/Magento/luma
-"Password you set when creating account","Konto loomisel määratud parool",theme,frontend/Magento/luma
-"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Unustasid oma salasõna? Klõpsake <a href=""%reset_url""> siin </a>, et seda uuendada.",theme,frontend/Magento/luma
-"When you sign in to your account, you will be able to:","Peale sisse logimist on teile võimalik teha järgnevaid toiminguid:",theme,frontend/Magento/luma
-"Quick Checkout","Kiire ostuprotsess",theme,frontend/Magento/luma
-"Proceed through checkout faster","Kulge läbi ostuprotsessi kiiremini",theme,frontend/Magento/luma
-"Order Status","Tellimuse staatus",theme,frontend/Magento/luma
-"Check the status of orders","Kontrolli tellimuste staatust",theme,frontend/Magento/luma
-"Manage Addresses","Halda aadresse",theme,frontend/Magento/luma
-"Store alternative addresses","Poe alternatiivsed aadressid",theme,frontend/Magento/luma
-"For shipping to multiple family members and friends","Tarnimine mitmele pereliikmele või sõbrale",theme,frontend/Magento/luma
-"Order History","Tellimuste ajalugu",theme,frontend/Magento/luma
-"View past orders","Vaadata vanu tellimusi",theme,frontend/Magento/luma
-Footer,Jalus,theme,frontend/Magento/luma
-"About Us",Meist,theme,frontend/Magento/luma
-"Customer Service",Klienditeenindus,theme,frontend/Magento/luma
-"<a href=""tel:%store_phone"">%store_phone</a>","<a href=""tel:%store_phone""> %store_phone</a>",theme,frontend/Magento/luma
-"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Tööaeg: < br / &gt; <span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
-"Credit memo for your %store_name order","Teie kreeditarve %store_name poest",theme,frontend/Magento/luma
-"Thank you for your order from %store_name.","Suur tänu teie tellimuse eest %store_name poest.",theme,frontend/Magento/luma
-"You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Saate oma tellimuse staatust jälgida kui <a href=""%account_url"">logite oma kontole sisse</a>.",theme,frontend/Magento/luma
-"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Kui teil on küsimusi oma tellimuse kohta, siis saatke meile e-mail aadressil <a href=""mailto:%store_email"">%store_email</a>.",theme,frontend/Magento/luma
-"Your Credit Memo #%creditmemo_id for Order #%order_id","Teie krediidi info #%creditmemo_id tellimusele #%order_id",theme,frontend/Magento/luma
-"Billing Info","Arveldamise info",theme,frontend/Magento/luma
-"Shipping Info","Tarne info",theme,frontend/Magento/luma
-"Payment Method",Makseviis,theme,frontend/Magento/luma
-"Shipping Method",Tarneviis,theme,frontend/Magento/luma
-"Update to your %store_name credit memo","Uuendus teie %store_name krediidi infole",theme,frontend/Magento/luma
-"Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","Teie tellimusel #%increment_id on muudetud staatust <strong>%order_status</strong>.",theme,frontend/Magento/luma
-"Invoice for your %store_name order","%store_name arve",theme,frontend/Magento/luma
-"Your Invoice #%invoice_id for Order #%order_id","Teie arve nr%invoice_id tellimusele nr%order_id",theme,frontend/Magento/luma
-"Update to your %store_name invoice","Uuendus %store_name arvele",theme,frontend/Magento/luma
-"Your %store_name order confirmation","%store_name tellimuse kinnitus",theme,frontend/Magento/luma
-"Once your package ships we will send you a tracking number.","Saadame Teile jälgmisnumbri niipea kui oleme paki teele pannud.",theme,frontend/Magento/luma
-"Your Order <span class=""no-link"">#%increment_id</span>","Teie tellimus <span class=""no-link""> #%increment_id</span>",theme,frontend/Magento/luma
-"Placed on <span class=""no-link"">%created_at</span>","Tellimus tehtud <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
-"Update to your %store_name order","Uuendage oma %store_name tellimust",theme,frontend/Magento/luma
-"Your %store_name order has shipped","Teie %store_name tellimus on teele pandud",theme,frontend/Magento/luma
-"Your shipping confirmation is below. Thank you again for your business.","Täname teid tellimuse eest. Alltoodult on teie tarneinfo.",theme,frontend/Magento/luma
-"Your Shipment #%shipment_id for Order #%order_id","Teie saadetise #%shipment_id tellimusele #%order_id",theme,frontend/Magento/luma
-"Update to your %store_name shipment","Uuendatud info teie %store_name tellimusele",theme,frontend/Magento/luma
 "We could not detect a size.","Ei suuda tuvastada suurust.",module,Magento_Backend
 "This payment is not available","Makse pole saadaval",module,Magento_Braintree
 MM,KK,module,Magento_Braintree
 YY,AA,module,Magento_Braintree
 "Please try again with another form of payment.","Palun proovige uuesti teise makseviisiga.",module,Magento_Braintree
 "Sorry, but something went wrong.","Vabandage, midagi läks valesti.",module,Magento_Braintree
+"Payment ","Makse ",module,Magento_Braintree
 "Warning message",Hoiatusteade,module,Magento_Catalog
 Submit,Saada,module,Magento_Catalog
 "We don't recognize or support this file extension type.","Me ei tunne või toeta seda tüüpi faililaiendit.",module,Magento_Catalog
@@ -3066,6 +3026,7 @@ Added,Lisatud,module,Magento_Catalog
 "unselect all","tühista kõik",module,Magento_Catalog
 Close,Sulge,module,Magento_CheckoutAgreements
 "Provided Zip/Postal Code seems to be invalid.","Postiindeks ei ole korrektne.",module,Magento_Checkout
+" Example: "," Näiteks: ",module,Magento_Checkout
 "Review & Payments","Ülevaade ja maksmine",module,Magento_Checkout
 "Select a new payment method","Valige uus makseviis",module,Magento_Checkout
 Shipping,Tarne,module,Magento_Checkout
@@ -3078,6 +3039,8 @@ Shipping,Tarne,module,Magento_Checkout
 Weak,Nõrk,module,Magento_Customer
 Strong,Tugev,module,Magento_Customer
 "Very Strong","Väga tugev",module,Magento_Customer
+" is required."," on nõutud.",module,Magento_Dhl
+" is required."," on nõutud.",module,Magento_Fedex
 Allow,Luba,module,Magento_Integration
 Done,Valmis,module,Magento_Integration
 "Please enter a valid credit card type number.","Sisesta korrektne krediitkaardi tüübi number.",module,Magento_Payment
@@ -3231,6 +3194,9 @@ Security,Turvalisus,module,Magento_Backend
 "Enable Charts","Luba graafikud",module,Magento_Backend
 "Url Options","Url-i seaded",module,Magento_Backend
 "Add Store Code to Urls","Lisa poe kood Url-idele",module,Magento_Backend
+"
+                        <strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).
+                    ","                         <strong style=""color:red""> Hoiatus!</strong> Kui kasutate poekoodi URL'ides siis mõnel juhul ei pruugi süsteem korralikult töödata. Näiteks  kolmandate osapoolte  (payPal jmt) puhul, kes kasutavad URL'i ilma poekoodita.",module,Magento_Backend
 "Auto-redirect to Base URL","Suuna automaatselt baasURL-ile",module,Magento_Backend
 "Search Engine Optimization","Otsimootorite jaoks optimeerimine",module,Magento_Backend
 "Use Web Server Rewrites","Kasuta veebiserveri suunamisi",module,Magento_Backend
@@ -3872,6 +3838,3 @@ Quantity,Kogus,module,Magento_Wishlist
 Action,Toiming,module,Magento_Wishlist
 Configure,Seadista,module,Magento_Wishlist
 Delete,Kustuta,module,Magento_Wishlist
-"Account Dashboard","Konto töölaud",theme,frontend/Magento/luma
-"Account Information","Konto andmed",theme,frontend/Magento/luma
-"Address Book",Aadressiraamat,theme,frontend/Magento/luma

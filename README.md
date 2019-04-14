@@ -13,9 +13,9 @@ For our other language packs look at the [Magento2Translations](http://magento2t
 
 # Version & progress
 This translation is generated from the branch [2.1.8](https://crowdin.com/project/magento-2/et#/2.1.8) at Crowdin and based on the Magento 2.1.8 sourcefiles.
-There have been  3876 strings translated of the 8467 strings in the Magento source.
+There have been  3837 strings translated of the 8467 strings in the Magento source.
 
-Translation progress:![Progress](http://progressed.io/bar/46)
+Translation progress:![Progress](http://progressed.io/bar/45)
 
 # Installation
 **Please select the git branch appropriate for your magento version from this repo.**
@@ -23,7 +23,7 @@ Translation progress:![Progress](http://progressed.io/bar/46)
 To install this translation package with composer you need access to the command line of your server and you need to have [Composer](https://getcomposer.org).
 ```
 cd <your magento path>
-composer require magento2translations/language_et_ee:2.1.8.x-dev
+composer require magento2translations/language_et_ee:2.1.8-dev
 php bin/magento cache:clean
 ```
 ## Manually
