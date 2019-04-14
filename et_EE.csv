@@ -25,6 +25,7 @@ major,oluline,module,Magento_AdminNotification
 minor,tühine,module,Magento_AdminNotification
 notice,teavitus,module,Magento_AdminNotification
 "Wrong message type","Vale sõnumi tüüp",module,Magento_AdminNotification
+"One or more of the Cache Types are invalidated: %1. ","Vähemalt üks vahemälu tüüpidest on kehtetu: %1. ",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Palun minge <a href=""%1""> Vahemälu haldamisse</a> ja värskenda vahemälu tüübid.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","Meedia hoiukohta sünkroonimine on lõpule viidud.",module,Magento_AdminNotification
 Close,Sulge,module,Magento_AdminNotification
@@ -229,6 +230,7 @@ System,Süsteem,module,Magento_Backend
 "The website does not exist.","Veebisaiti ei leitud.",module,Magento_Backend
 "The store does not exist","Poodi ei leitud",module,Magento_Backend
 "Store view doesn't exist","Poevaadet ei ole olemas",module,Magento_Backend
+"New ","Uus ",module,Magento_Backend
 "Last 24 Hours","Viimased 24 tundi",module,Magento_Backend
 "Last 7 Days","Viimased seitse päeva",module,Magento_Backend
 "Current Month","Käesolev kuu",module,Magento_Backend
@@ -799,6 +801,7 @@ Role,Roll,module,Magento_Catalog
 "Unselect All","Eemalda valikud",module,Magento_Catalog
 "Select Visible","Vali nähtavad",module,Magento_Catalog
 "Unselect Visible","Tühista nähtavad",module,Magento_Catalog
+"Buy %1 for: ","Osta %1: ",module,Magento_Catalog
 "Shop By",Sorteeri,module,Magento_Catalog
 "Shopping Options","Ostlemise Valikud",module,Magento_Catalog
 "Compare Products","Võrdle tooteid",module,Magento_Catalog
@@ -1831,6 +1834,8 @@ Partial,Osaline,module,Magento_Sales
 "Amount: %1.","Summa %1.",module,Magento_Sales
 "Transaction ID: ""%1""","Kande ID: ""%1""",module,Magento_Sales
 Order,Tellimus,module,Magento_Sales
+"Order # ","Tellimus # ",module,Magento_Sales
+"Order Date: ","Tellimuse kuupäev: ",module,Magento_Sales
 "Sold to:",Ostja:,module,Magento_Sales
 "Ship to:",Saaja:,module,Magento_Sales
 "Payment Method:",Makseviis:,module,Magento_Sales
@@ -1841,6 +1846,8 @@ Products,Tooted,module,Magento_Sales
 "Total (ex)","Kokku (maksudeta)",module,Magento_Sales
 Qty,Kogus,module,Magento_Sales
 "Total (inc)","Kokku (maksudega)",module,Magento_Sales
+"Credit Memo # ","Kreeditarve # ",module,Magento_Sales
+"Invoice # ","Arve # ",module,Magento_Sales
 "Excl. Tax","Ilma maksuta",module,Magento_Sales
 "Incl. Tax","Koos maksuga",module,Magento_Sales
 title,pealkiri,module,Magento_Sales
@@ -1929,7 +1936,6 @@ Date,Kuupäev,module,Magento_Sales
 "You have placed no orders.","Teil pole esitatud ühtegi tellimust.",module,Magento_Sales
 "Print Order","Prindi tellimus",module,Magento_Sales
 "Print All Invoices","Trüki kõik arved",module,Magento_Sales
-"Invoice #","Arve #",module,Magento_Sales
 "Print Invoice","Trüki arve",module,Magento_Sales
 Close,Sulge,module,Magento_Sales
 "Shipment #%1","Saadetis #%1",module,Magento_Sales
@@ -2234,7 +2240,6 @@ Back,Tagasi,module,Magento_Wishlist
 "Remove This Item","Eemalda toode",module,Magento_Wishlist
 "Go to Wish List","Mine soovinimekirja",module,Magento_Wishlist
 "You have no items in your wish list.","Ostukorvis pole tooteid.",module,Magento_Wishlist
-"Shop By",Vali,theme,frontend/Magento/luma
 Total:,Kokku:,module,Magento_Checkout
 "Add Selected Products","Lisa valitud tooted",module,Magento_Bundle
 Cancel,Tühista,module,Magento_Catalog
@@ -2363,6 +2368,9 @@ Security,Turvalisus,module,Magento_Backend
 "Enable Charts","Luba graafikud",module,Magento_Backend
 "Url Options","Url-i seaded",module,Magento_Backend
 "Add Store Code to Urls","Lisa poe kood Url-idele",module,Magento_Backend
+"
+                        <strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).
+                    ","                         <strong style=""color:red""> Hoiatus!</strong> Kui kasutate poekoodi URL'ides siis mõnel juhul ei pruugi süsteem korralikult töödata. Näiteks  kolmandate osapoolte  (payPal jmt) puhul, kes kasutavad URL'i ilma poekoodita.",module,Magento_Backend
 "Auto-redirect to Base URL","Suuna automaatselt baasURL-ile",module,Magento_Backend
 "Search Engine Optimization","Otsimootorite jaoks optimeerimine",module,Magento_Backend
 "Use Web Server Rewrites","Kasuta veebiserveri suunamisi",module,Magento_Backend
@@ -2770,4 +2778,3 @@ Quantity,Kogus,module,Magento_Wishlist
 Action,Toiming,module,Magento_Wishlist
 Configure,Seadista,module,Magento_Wishlist
 Delete,Kustuta,module,Magento_Wishlist
-Summary,Kokkuvõte,theme,frontend/Magento/blank
